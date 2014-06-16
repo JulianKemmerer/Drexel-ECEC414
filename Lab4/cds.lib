@@ -1,0 +1,11 @@
+DEFINE analogLib $CDS/tools/dfII/etc/cdslib/artist/analogLib 
+DEFINE sbaLib $CDS/tools/dfII/etc/cdslib/artist/sbaLib 
+DEFINE basic $CDS/tools/dfII/etc/cdslib/basic 
+DEFINE sample $CDS/tools/dfII/samples/cdslib/sample 
+DEFINE US_8ths $CDS/tools/dfII/etc/cdslib/sheets/US_8ths
+DEFINE cmrf7sf /home/ECEx72/IBM_CMOS7RF/IBM_PDK/cmrf7sf/V2.0.1.0AM/cdslib/cmrf7sf
+DEFINE esd7rf /home/ECEx72/IBM_CMOS7RF/IBM_PDK/cmrf7sf/V2.0.1.0AM/cdslib/esd7rf
+DEFINE cmrf7sf_digital   /home/ECEx72/IBM_CMOS7RF/Digital_KIT/ibm_cmos7rf_std_cell_20111130/std_cell/v.20111130/cdslib_oa
+DEFINE cmrf7sf_digital_layout  /home/ECEx72/IBM_CMOS7RF/Digital_KIT/ibm_cmos7rf_std_cell_20111130/std_cell/v.20111130/cdslib_oa_layout
+
+

@@ -1,0 +1,21 @@
+layout  instLibName     string  "cmrf7sf"
+layout  ySnapSpacing    float   0.01
+layout  xSnapSpacing    float   0.01
+
+layoutXL           sfactorNames    string  "sc SC"
+
+spectre.envOpts    modelFiles      string  "design.scs wafer.scs allModels.scs"
+spectre.envOpts    includePath     string  "/home/ECEx72/IBM_CMOS7RF/IBM_PDK/cmrf7sf/V2.0.1.0AM/Spectre/models"
+spectre.opts       tnom            string  "25"
+
+; spectreS.envOpts   includeFile     string  "/home/ECEx72/IBM_CMOS7RF/IBM_PDK/cmrf7sf/V2.0.1.0AM/SpectreS/models/cdsSpice_syntax.include"
+; spectreS.envOpts   updateFile      string  "/home/ECEx72/IBM_CMOS7RF/IBM_PDK/cmrf7sf/V2.0.1.0AM/SpectreS/models/update"
+; spectreS.envOpts   initFile        string  "/home/ECEx72/IBM_CMOS7RF/IBM_PDK/cmrf7sf/V2.0.1.0AM/SpectreS/models/init"
+; spectreS.envOpts   includeSyntax   string  "cdsSpice"
+; spectreS.opts      tnom            string  "25"
+
+; hspiceS.envOpts    includeFile     string  "/home/ECEx72/IBM_CMOS7RF/IBM_PDK/cmrf7sf/V2.0.1.0AM/HSPICE/models/hspice_example.include"
+; hspiceS.envOpts    includeSyntax   string  "hspice"
+; hspiceS.opts       TNOM            string  "25"
+
+; iccTranslator.ExportEditor rulesFile string "/home/ECEx72/IBM_CMOS7RF/IBM_PDK/cmrf7sf/V2.0.1.0AM/cdslib/cmrf7sf/cmrf7sfAM6.vcr"

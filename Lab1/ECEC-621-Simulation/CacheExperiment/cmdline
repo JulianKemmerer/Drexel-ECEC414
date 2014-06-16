@@ -1,0 +1,33 @@
+cd /home/DREXEL/jvk27/gem5-stable/build/ALPHA
+
+./gem5.opt --outdir=< EXPNAME > runSplash.py -d -n 4 --l1size 32kB --cacheblocksize 64 -b FFT --rootdir=/home/DREXEL/jvk27/splash2/codes 
+
+Outputs a directory of information called m5out in ∼/gem5-stable/build/ALPHA
+Change < EXPNAME > to change output dir
+
+–l1size configures the L1 cache size 
+–cacheblocksize configures the cache line size, the amount
+of data transferred from memory on a cache miss. 
+-d tells GEM5 to use the detailed out-of-order model.
+-n 4 tells GEM5 to create a system with 4 CPUs
+-b FFT tells GEM5 to run the FFT benchmark
+–rootdir tells GEM5 where to find the benchmarks, replace < drexel id > with your username
+
+Experiment Chosen:
+Keep number of processors fixed at 4, block size fixed at 64B and vary L1 cache capacity
+(16KB, 32KB, 64KB)
+
+Command lines (FFT):
+./gem5.opt --outdir=FFT16KB runSplash.py -d -n 4 --l1size 16kB --cacheblocksize 64 -b FFT --rootdir=/home/DREXEL/jvk27/splash2/codes 
+
+./gem5.opt --outdir=FFT32KB runSplash.py -d -n 4 --l1size 32kB --cacheblocksize 64 -b FFT --rootdir=/home/DREXEL/jvk27/splash2/codes
+
+./gem5.opt --outdir=FFT64KB runSplash.py -d -n 4 --l1size 64kB --cacheblocksize 64 -b FFT --rootdir=/home/DREXEL/jvk27/splash2/codes
+
+Command lines (WaterSpatial):
+./gem5.opt --outdir=WaterSpatial16KB runSplash.py -d -n 4 --l1size 16kB --cacheblocksize 64 -b WaterSpatial --rootdir=/home/DREXEL/jvk27/splash2/codes 
+
+./gem5.opt --outdir=WaterSpatial32KB runSplash.py -d -n 4 --l1size 32kB --cacheblocksize 64 -b WaterSpatial --rootdir=/home/DREXEL/jvk27/splash2/codes
+
+./gem5.opt --outdir=WaterSpatial64KB runSplash.py -d -n 4 --l1size 64kB --cacheblocksize 64 -b WaterSpatial --rootdir=/home/DREXEL/jvk27/splash2/codes
+

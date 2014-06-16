@@ -1,0 +1,404 @@
+Real time: Feb/20/2014 15:58:38
+
+Profiler Stats
+--------------
+Elapsed_time_in_seconds: 709
+Elapsed_time_in_minutes: 11.8167
+Elapsed_time_in_hours: 0.196944
+Elapsed_time_in_days: 0.00820602
+
+Virtual_time_in_seconds: 708.71
+Virtual_time_in_minutes: 11.8118
+Virtual_time_in_hours:   0.196864
+Virtual_time_in_days:    0.00820266
+
+Ruby_current_time: 144468931
+Ruby_start_time: 0
+Ruby_cycles: 144468931
+
+mbytes_resident: 143.48
+mbytes_total: 326.199
+resident_ratio: 0.439903
+
+Busy Controller Counts:
+L1Cache-0:0  L1Cache-1:0  L1Cache-2:0  L1Cache-3:0  
+L2Cache-0:0  L2Cache-1:0  L2Cache-2:0  L2Cache-3:0  
+
+Directory-0:0  Directory-1:0  Directory-2:0  Directory-3:0  
+
+Busy Bank Count:0
+
+sequencer_requests_outstanding: [binsize: 1 max: 1 count: 133665094 average:     1 | standard deviation: 0 | 0 133665094 ]
+
+All Non-Zero Cycle Demand Cache Accesses
+----------------------------------------
+latency: [binsize: 16 max: 317 count: 133665093 average: 3.31565 | standard deviation: 4.42738 | 132736100 455692 58 41 454304 16343 2415 91 26 7 1 3 3 3 2 0 1 2 0 1 ]
+latency: LD: [binsize: 16 max: 317 count: 4382071 average: 7.43257 | standard deviation: 16.9757 | 4074097 47477 20 32 253814 5037 1482 70 20 6 1 3 3 3 2 0 1 2 0 1 ]
+latency: ST: [binsize: 8 max: 135 count: 3781125 average: 8.99192 | standard deviation: 17.3891 | 3163254 0 397648 8219 22 0 3 0 7 199735 10742 550 441 479 19 1 5 ]
+latency: IFETCH: [binsize: 8 max: 147 count: 123387689 average: 3.00051 | standard deviation: 0.182734 | 123386537 0 25 366 5 3 0 4 15 708 11 0 8 5 1 0 0 0 1 ]
+latency: RMW_Read: [binsize: 8 max: 83 count: 2113716 average: 3.02228 | standard deviation: 0.756052 | 2111757 0 390 1537 8 0 1 0 1 20 2 ]
+latency: Locked_RMW_Read: [binsize: 8 max: 138 count: 246 average: 8.23577 | standard deviation: 15.3417 | 209 0 2 28 0 0 0 1 3 1 1 0 0 0 0 0 0 1 ]
+latency: Locked_RMW_Write: [binsize: 1 max: 3 count: 246 average:     3 | standard deviation: 0 | 0 0 0 246 ]
+hit latency: [binsize: 1 max: 3 count: 132736100 average:     3 | standard deviation: 0 | 0 0 0 132736100 ]
+hit latency: LD: [binsize: 1 max: 3 count: 4074097 average:     3 | standard deviation: 0 | 0 0 0 4074097 ]
+hit latency: ST: [binsize: 1 max: 3 count: 3163254 average:     3 | standard deviation: 0 | 0 0 0 3163254 ]
+hit latency: IFETCH: [binsize: 1 max: 3 count: 123386537 average:     3 | standard deviation: 0 | 0 0 0 123386537 ]
+hit latency: RMW_Read: [binsize: 1 max: 3 count: 2111757 average:     3 | standard deviation: 0 | 0 0 0 2111757 ]
+hit latency: Locked_RMW_Read: [binsize: 1 max: 3 count: 209 average:     3 | standard deviation: 0 | 0 0 0 209 ]
+hit latency: Locked_RMW_Write: [binsize: 1 max: 3 count: 246 average:     3 | standard deviation: 0 | 0 0 0 246 ]
+miss latency: [binsize: 16 max: 317 count: 928993 average: 48.4168 | standard deviation: 27.7845 | 0 455692 58 41 454304 16343 2415 91 26 7 1 3 3 3 2 0 1 2 0 1 ]
+miss latency: LD: [binsize: 16 max: 317 count: 307974 average: 66.0697 | standard deviation: 20.0532 | 0 47477 20 32 253814 5037 1482 70 20 6 1 3 3 3 2 0 1 2 0 1 ]
+miss latency: ST: [binsize: 8 max: 135 count: 617871 average: 39.6682 | standard deviation: 26.937 | 0 0 397648 8219 22 0 3 0 7 199735 10742 550 441 479 19 1 5 ]
+miss latency: IFETCH: [binsize: 8 max: 147 count: 1152 average: 58.1189 | standard deviation: 23.2145 | 0 0 25 366 5 3 0 4 15 708 11 0 8 5 1 0 0 0 1 ]
+miss latency: RMW_Read: [binsize: 8 max: 83 count: 1959 average: 27.0383 | standard deviation: 6.28303 | 0 0 390 1537 8 0 1 0 1 20 2 ]
+miss latency: Locked_RMW_Read: [binsize: 8 max: 138 count: 37 average: 37.8108 | standard deviation: 23.3167 | 0 0 2 28 0 0 0 1 3 1 1 0 0 0 0 0 0 1 ]
+
+Request vs. RubySystem State Profile
+--------------------------------
+
+
+
+Message Delayed Cycles
+----------------------
+Total_delay_cycles: [binsize: 1 max: 0 count: 0 average: NaN |standard deviation: NaN | 0 ]
+  virtual_network_0_delay_cycles: [binsize: 1 max: 0 count: 0 average: NaN |standard deviation: NaN | 0 ]
+  virtual_network_1_delay_cycles: [binsize: 1 max: 0 count: 0 average: NaN |standard deviation: NaN | 0 ]
+  virtual_network_2_delay_cycles: [binsize: 1 max: 0 count: 0 average: NaN |standard deviation: NaN | 0 ]
+  virtual_network_3_delay_cycles: [binsize: 1 max: 0 count: 0 average: NaN |standard deviation: NaN | 0 ]
+  virtual_network_4_delay_cycles: [binsize: 1 max: 0 count: 0 average: NaN |standard deviation: NaN | 0 ]
+  virtual_network_5_delay_cycles: [binsize: 1 max: 0 count: 0 average: NaN |standard deviation: NaN | 0 ]
+  virtual_network_6_delay_cycles: [binsize: 1 max: 0 count: 0 average: NaN |standard deviation: NaN | 0 ]
+  virtual_network_7_delay_cycles: [binsize: 1 max: 0 count: 0 average: NaN |standard deviation: NaN | 0 ]
+  virtual_network_8_delay_cycles: [binsize: 1 max: 0 count: 0 average: NaN |standard deviation: NaN | 0 ]
+  virtual_network_9_delay_cycles: [binsize: 1 max: 0 count: 0 average: NaN |standard deviation: NaN | 0 ]
+
+Resource Usage
+--------------
+page_size: 4096
+user_time: 707
+system_time: 1
+page_reclaims: 37673
+page_faults: 4
+swaps: 0
+block_inputs: 93952
+block_outputs: 208
+
+Network Stats
+-------------
+
+total_msg_count_Request_Control: 4205916 33647328
+total_msg_count_Response_Data: 2837874 204326928
+total_msg_count_ResponseL2hit_Data: 1352247 97361784
+total_msg_count_ResponseLocal_Data: 15780 1136160
+total_msg_count_Response_Control: 5967 47736
+total_msg_count_Writeback_Data: 3371622 242756784
+total_msg_count_Writeback_Control: 9015630 72125040
+total_msg_count_Forwarded_Control: 15795 126360
+total_msg_count_Invalidate_Control: 185 1480
+total_msg_count_Unblock_Control: 4209332 33674656
+total_msgs: 25030348 total_bytes: 685204256
+
+switch_0_inlinks: 2
+switch_0_outlinks: 2
+links_utilized_percent_switch_0: 0.885311
+  links_utilized_percent_switch_0_link_0: 0.806849 bw: 16000 base_latency: 1
+  links_utilized_percent_switch_0_link_1: 0.963772 bw: 16000 base_latency: 1
+
+  outgoing_messages_switch_0_link_0_Response_Data: 119196 8582112 [ 0 0 119196 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_0_link_0_ResponseL2hit_Data: 111940 8059680 [ 0 0 111940 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_0_link_0_ResponseLocal_Data: 1978 142416 [ 0 0 1978 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_0_link_0_Response_Control: 831 6648 [ 0 0 831 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_0_link_0_Writeback_Control: 231054 1848432 [ 231054 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_0_link_0_Forwarded_Control: 1366 10928 [ 1366 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_0_link_0_Invalidate_Control: 16 128 [ 16 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_0_link_1_Request_Control: 233115 1864920 [ 233115 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_0_link_1_ResponseLocal_Data: 1365 98280 [ 0 0 1365 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_0_link_1_Response_Control: 16 128 [ 0 0 16 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_0_link_1_Writeback_Data: 230508 16596576 [ 0 0 230508 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_0_link_1_Writeback_Control: 231054 1848432 [ 231054 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_0_link_1_Unblock_Control: 233661 1869288 [ 0 0 233661 0 0 0 0 0 0 0 ] base_latency: 1
+
+switch_1_inlinks: 2
+switch_1_outlinks: 2
+links_utilized_percent_switch_1: 0.87815
+  links_utilized_percent_switch_1_link_0: 0.79901 bw: 16000 base_latency: 1
+  links_utilized_percent_switch_1_link_1: 0.95729 bw: 16000 base_latency: 1
+
+  outgoing_messages_switch_1_link_0_Response_Data: 117788 8480736 [ 0 0 117788 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_1_link_0_ResponseL2hit_Data: 112287 8084664 [ 0 0 112287 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_1_link_0_ResponseLocal_Data: 787 56664 [ 0 0 787 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_1_link_0_Response_Control: 290 2320 [ 0 0 290 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_1_link_0_Writeback_Control: 229317 1834536 [ 229317 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_1_link_0_Forwarded_Control: 1258 10064 [ 1258 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_1_link_0_Invalidate_Control: 19 152 [ 19 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_1_link_1_Request_Control: 230865 1846920 [ 230865 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_1_link_1_ResponseLocal_Data: 1255 90360 [ 0 0 1255 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_1_link_1_Response_Control: 19 152 [ 0 0 19 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_1_link_1_Writeback_Data: 229287 16508664 [ 0 0 229287 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_1_link_1_Writeback_Control: 229317 1834536 [ 229317 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_1_link_1_Unblock_Control: 230895 1847160 [ 0 0 230895 0 0 0 0 0 0 0 ] base_latency: 1
+
+switch_2_inlinks: 2
+switch_2_outlinks: 2
+links_utilized_percent_switch_2: 0.882529
+  links_utilized_percent_switch_2_link_0: 0.802538 bw: 16000 base_latency: 1
+  links_utilized_percent_switch_2_link_1: 0.962519 bw: 16000 base_latency: 1
+
+  outgoing_messages_switch_2_link_0_Response_Data: 117664 8471808 [ 0 0 117664 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_2_link_0_ResponseL2hit_Data: 113063 8140536 [ 0 0 113063 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_2_link_0_ResponseLocal_Data: 1086 78192 [ 0 0 1086 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_2_link_0_Response_Control: 554 4432 [ 0 0 554 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_2_link_0_Writeback_Control: 230257 1842056 [ 230257 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_2_link_0_Forwarded_Control: 1683 13464 [ 1683 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_2_link_0_Invalidate_Control: 26 208 [ 26 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_2_link_1_Request_Control: 231814 1854512 [ 231814 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_2_link_1_ResponseLocal_Data: 1682 121104 [ 0 0 1682 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_2_link_1_Response_Control: 26 208 [ 0 0 26 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_2_link_1_Writeback_Data: 230222 16575984 [ 0 0 230222 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_2_link_1_Writeback_Control: 230257 1842056 [ 230257 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_2_link_1_Unblock_Control: 231849 1854792 [ 0 0 231849 0 0 0 0 0 0 0 ] base_latency: 1
+
+switch_3_inlinks: 2
+switch_3_outlinks: 2
+links_utilized_percent_switch_3: 0.885854
+  links_utilized_percent_switch_3_link_0: 0.807001 bw: 16000 base_latency: 1
+  links_utilized_percent_switch_3_link_1: 0.964707 bw: 16000 base_latency: 1
+
+  outgoing_messages_switch_3_link_0_Response_Data: 118331 8519832 [ 0 0 118331 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_3_link_0_ResponseL2hit_Data: 113459 8169048 [ 0 0 113459 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_3_link_0_ResponseLocal_Data: 1409 101448 [ 0 0 1409 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_3_link_0_Response_Control: 314 2512 [ 0 0 314 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_3_link_0_Writeback_Control: 231660 1853280 [ 231660 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_3_link_0_Forwarded_Control: 958 7664 [ 958 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_3_link_0_Invalidate_Control: 8 64 [ 8 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_3_link_1_Request_Control: 233199 1865592 [ 233199 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_3_link_1_ResponseLocal_Data: 958 68976 [ 0 0 958 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_3_link_1_Response_Control: 8 64 [ 0 0 8 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_3_link_1_Writeback_Data: 231132 16641504 [ 0 0 231132 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_3_link_1_Writeback_Control: 231660 1853280 [ 231660 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_3_link_1_Unblock_Control: 233727 1869816 [ 0 0 233727 0 0 0 0 0 0 0 ] base_latency: 1
+
+switch_4_inlinks: 2
+switch_4_outlinks: 2
+links_utilized_percent_switch_4: 1.23359
+  links_utilized_percent_switch_4_link_0: 1.36612 bw: 16000 base_latency: 1
+  links_utilized_percent_switch_4_link_1: 1.10106 bw: 16000 base_latency: 1
+
+  outgoing_messages_switch_4_link_0_Request_Control: 233317 1866536 [ 233317 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_4_link_0_Response_Data: 118223 8512056 [ 0 0 118223 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_4_link_0_Writeback_Data: 230241 16577352 [ 0 0 230241 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_4_link_0_Writeback_Control: 344136 2753088 [ 230534 113602 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_4_link_0_Unblock_Control: 233610 1868880 [ 0 0 233610 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_4_link_1_Request_Control: 118223 945784 [ 0 118223 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_4_link_1_Response_Data: 118223 8512056 [ 0 0 118223 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_4_link_1_ResponseL2hit_Data: 112655 8111160 [ 0 0 112655 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_4_link_1_Response_Control: 1622 12976 [ 0 0 1622 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_4_link_1_Writeback_Data: 50653 3647016 [ 0 0 50653 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_4_link_1_Writeback_Control: 407085 3256680 [ 230534 113602 62949 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_4_link_1_Forwarded_Control: 2439 19512 [ 2439 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_4_link_1_Invalidate_Control: 1 8 [ 1 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_4_link_1_Unblock_Control: 118223 945784 [ 0 0 118223 0 0 0 0 0 0 0 ] base_latency: 1
+
+switch_5_inlinks: 2
+switch_5_outlinks: 2
+links_utilized_percent_switch_5: 1.23338
+  links_utilized_percent_switch_5_link_0: 1.36596 bw: 16000 base_latency: 1
+  links_utilized_percent_switch_5_link_1: 1.1008 bw: 16000 base_latency: 1
+
+  outgoing_messages_switch_5_link_0_Request_Control: 232144 1857152 [ 232144 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_5_link_0_Response_Data: 118247 8513784 [ 0 0 118247 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_5_link_0_Writeback_Data: 230409 16589448 [ 0 0 230409 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_5_link_0_Writeback_Control: 344298 2754384 [ 230684 113614 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_5_link_0_Unblock_Control: 232419 1859352 [ 0 0 232419 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_5_link_1_Request_Control: 118247 945976 [ 0 118247 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_5_link_1_Response_Data: 118247 8513784 [ 0 0 118247 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_5_link_1_ResponseL2hit_Data: 112809 8122248 [ 0 0 112809 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_5_link_1_Response_Control: 144 1152 [ 0 0 144 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_5_link_1_Writeback_Data: 50682 3649104 [ 0 0 50682 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_5_link_1_Writeback_Control: 407230 3257840 [ 230684 113614 62932 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_5_link_1_Forwarded_Control: 1088 8704 [ 1088 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_5_link_1_Invalidate_Control: 37 296 [ 37 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_5_link_1_Unblock_Control: 118247 945976 [ 0 0 118247 0 0 0 0 0 0 0 ] base_latency: 1
+
+switch_6_inlinks: 2
+switch_6_outlinks: 2
+links_utilized_percent_switch_6: 1.23203
+  links_utilized_percent_switch_6_link_0: 1.36447 bw: 16000 base_latency: 1
+  links_utilized_percent_switch_6_link_1: 1.09958 bw: 16000 base_latency: 1
+
+  outgoing_messages_switch_6_link_0_Request_Control: 231616 1852928 [ 231616 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_6_link_0_Response_Data: 118232 8512704 [ 0 0 118232 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_6_link_0_Writeback_Data: 230102 16567344 [ 0 0 230102 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_6_link_0_Writeback_Control: 343968 2751744 [ 230369 113599 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_6_link_0_Unblock_Control: 231883 1855064 [ 0 0 231883 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_6_link_1_Request_Control: 118232 945856 [ 0 118232 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_6_link_1_Response_Data: 118232 8512704 [ 0 0 118232 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_6_link_1_ResponseL2hit_Data: 112515 8101080 [ 0 0 112515 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_6_link_1_Response_Control: 81 648 [ 0 0 81 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_6_link_1_Writeback_Data: 50674 3648528 [ 0 0 50674 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_6_link_1_Writeback_Control: 406893 3255144 [ 230369 113599 62925 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_6_link_1_Forwarded_Control: 869 6952 [ 869 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_6_link_1_Invalidate_Control: 9 72 [ 9 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_6_link_1_Unblock_Control: 118232 945856 [ 0 0 118232 0 0 0 0 0 0 0 ] base_latency: 1
+
+switch_7_inlinks: 2
+switch_7_outlinks: 2
+links_utilized_percent_switch_7: 1.23334
+  links_utilized_percent_switch_7_link_0: 1.36588 bw: 16000 base_latency: 1
+  links_utilized_percent_switch_7_link_1: 1.1008 bw: 16000 base_latency: 1
+
+  outgoing_messages_switch_7_link_0_Request_Control: 231916 1855328 [ 231916 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_7_link_0_Response_Data: 118277 8515944 [ 0 0 118277 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_7_link_0_Writeback_Data: 230397 16588584 [ 0 0 230397 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_7_link_0_Writeback_Control: 344339 2754712 [ 230701 113638 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_7_link_0_Unblock_Control: 232220 1857760 [ 0 0 232220 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_7_link_1_Request_Control: 118277 946216 [ 0 118277 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_7_link_1_Response_Data: 118277 8515944 [ 0 0 118277 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_7_link_1_ResponseL2hit_Data: 112770 8119440 [ 0 0 112770 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_7_link_1_Response_Control: 73 584 [ 0 0 73 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_7_link_1_Writeback_Data: 50716 3651552 [ 0 0 50716 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_7_link_1_Writeback_Control: 407261 3258088 [ 230701 113638 62922 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_7_link_1_Forwarded_Control: 869 6952 [ 869 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_7_link_1_Unblock_Control: 118277 946216 [ 0 0 118277 0 0 0 0 0 0 0 ] base_latency: 1
+
+switch_8_inlinks: 2
+switch_8_outlinks: 2
+links_utilized_percent_switch_8: 0.354139
+  links_utilized_percent_switch_8_link_0: 0.300713 bw: 16000 base_latency: 1
+  links_utilized_percent_switch_8_link_1: 0.407565 bw: 16000 base_latency: 1
+
+  outgoing_messages_switch_8_link_0_Request_Control: 118223 945784 [ 0 118223 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_8_link_0_Writeback_Data: 50653 3647016 [ 0 0 50653 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_8_link_0_Writeback_Control: 176551 1412408 [ 0 113602 62949 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_8_link_0_Unblock_Control: 118223 945784 [ 0 0 118223 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_8_link_1_Response_Data: 118223 8512056 [ 0 0 118223 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_8_link_1_Writeback_Control: 113602 908816 [ 0 113602 0 0 0 0 0 0 0 0 ] base_latency: 1
+
+switch_9_inlinks: 2
+switch_9_outlinks: 2
+links_utilized_percent_switch_9: 0.354231
+  links_utilized_percent_switch_9_link_0: 0.300818 bw: 16000 base_latency: 1
+  links_utilized_percent_switch_9_link_1: 0.407644 bw: 16000 base_latency: 1
+
+  outgoing_messages_switch_9_link_0_Request_Control: 118247 945976 [ 0 118247 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_9_link_0_Writeback_Data: 50682 3649104 [ 0 0 50682 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_9_link_0_Writeback_Control: 176546 1412368 [ 0 113614 62932 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_9_link_0_Unblock_Control: 118246 945968 [ 0 0 118246 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_9_link_1_Response_Data: 118247 8513784 [ 0 0 118247 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_9_link_1_Writeback_Control: 113614 908912 [ 0 113614 0 0 0 0 0 0 0 0 ] base_latency: 1
+
+switch_10_inlinks: 2
+switch_10_outlinks: 2
+links_utilized_percent_switch_10: 0.354184
+  links_utilized_percent_switch_10_link_0: 0.300775 bw: 16000 base_latency: 1
+  links_utilized_percent_switch_10_link_1: 0.407592 bw: 16000 base_latency: 1
+
+  outgoing_messages_switch_10_link_0_Request_Control: 118232 945856 [ 0 118232 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_10_link_0_Writeback_Data: 50674 3648528 [ 0 0 50674 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_10_link_0_Writeback_Control: 176524 1412192 [ 0 113599 62925 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_10_link_0_Unblock_Control: 118232 945856 [ 0 0 118232 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_10_link_1_Response_Data: 118232 8512704 [ 0 0 118232 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_10_link_1_Writeback_Control: 113599 908792 [ 0 113599 0 0 0 0 0 0 0 0 ] base_latency: 1
+
+switch_11_inlinks: 2
+switch_11_outlinks: 2
+links_utilized_percent_switch_11: 0.354348
+  links_utilized_percent_switch_11_link_0: 0.30095 bw: 16000 base_latency: 1
+  links_utilized_percent_switch_11_link_1: 0.407745 bw: 16000 base_latency: 1
+
+  outgoing_messages_switch_11_link_0_Request_Control: 118277 946216 [ 0 118277 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_11_link_0_Writeback_Data: 50716 3651552 [ 0 0 50716 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_11_link_0_Writeback_Control: 176560 1412480 [ 0 113638 62922 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_11_link_0_Unblock_Control: 118277 946216 [ 0 0 118277 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_11_link_1_Response_Data: 118277 8515944 [ 0 0 118277 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_11_link_1_Writeback_Control: 113638 909104 [ 0 113638 0 0 0 0 0 0 0 0 ] base_latency: 1
+
+switch_12_inlinks: 12
+switch_12_outlinks: 12
+links_utilized_percent_switch_12: 0.823423
+  links_utilized_percent_switch_12_link_0: 0.806849 bw: 16000 base_latency: 1
+  links_utilized_percent_switch_12_link_1: 0.79901 bw: 16000 base_latency: 1
+  links_utilized_percent_switch_12_link_2: 0.802538 bw: 16000 base_latency: 1
+  links_utilized_percent_switch_12_link_3: 0.807001 bw: 16000 base_latency: 1
+  links_utilized_percent_switch_12_link_4: 1.36612 bw: 16000 base_latency: 1
+  links_utilized_percent_switch_12_link_5: 1.36596 bw: 16000 base_latency: 1
+  links_utilized_percent_switch_12_link_6: 1.36447 bw: 16000 base_latency: 1
+  links_utilized_percent_switch_12_link_7: 1.36588 bw: 16000 base_latency: 1
+  links_utilized_percent_switch_12_link_8: 0.300713 bw: 16000 base_latency: 1
+  links_utilized_percent_switch_12_link_9: 0.300818 bw: 16000 base_latency: 1
+  links_utilized_percent_switch_12_link_10: 0.300775 bw: 16000 base_latency: 1
+  links_utilized_percent_switch_12_link_11: 0.30095 bw: 16000 base_latency: 1
+
+  outgoing_messages_switch_12_link_0_Response_Data: 119196 8582112 [ 0 0 119196 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_0_ResponseL2hit_Data: 111940 8059680 [ 0 0 111940 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_0_ResponseLocal_Data: 1978 142416 [ 0 0 1978 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_0_Response_Control: 831 6648 [ 0 0 831 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_0_Writeback_Control: 231054 1848432 [ 231054 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_0_Forwarded_Control: 1366 10928 [ 1366 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_0_Invalidate_Control: 16 128 [ 16 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_1_Response_Data: 117788 8480736 [ 0 0 117788 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_1_ResponseL2hit_Data: 112287 8084664 [ 0 0 112287 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_1_ResponseLocal_Data: 787 56664 [ 0 0 787 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_1_Response_Control: 290 2320 [ 0 0 290 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_1_Writeback_Control: 229317 1834536 [ 229317 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_1_Forwarded_Control: 1258 10064 [ 1258 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_1_Invalidate_Control: 19 152 [ 19 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_2_Response_Data: 117664 8471808 [ 0 0 117664 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_2_ResponseL2hit_Data: 113063 8140536 [ 0 0 113063 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_2_ResponseLocal_Data: 1086 78192 [ 0 0 1086 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_2_Response_Control: 554 4432 [ 0 0 554 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_2_Writeback_Control: 230257 1842056 [ 230257 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_2_Forwarded_Control: 1683 13464 [ 1683 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_2_Invalidate_Control: 26 208 [ 26 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_3_Response_Data: 118331 8519832 [ 0 0 118331 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_3_ResponseL2hit_Data: 113459 8169048 [ 0 0 113459 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_3_ResponseLocal_Data: 1409 101448 [ 0 0 1409 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_3_Response_Control: 314 2512 [ 0 0 314 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_3_Writeback_Control: 231660 1853280 [ 231660 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_3_Forwarded_Control: 958 7664 [ 958 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_3_Invalidate_Control: 8 64 [ 8 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_4_Request_Control: 233317 1866536 [ 233317 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_4_Response_Data: 118223 8512056 [ 0 0 118223 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_4_Writeback_Data: 230241 16577352 [ 0 0 230241 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_4_Writeback_Control: 344136 2753088 [ 230534 113602 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_4_Unblock_Control: 233610 1868880 [ 0 0 233610 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_5_Request_Control: 232144 1857152 [ 232144 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_5_Response_Data: 118247 8513784 [ 0 0 118247 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_5_Writeback_Data: 230409 16589448 [ 0 0 230409 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_5_Writeback_Control: 344298 2754384 [ 230684 113614 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_5_Unblock_Control: 232419 1859352 [ 0 0 232419 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_6_Request_Control: 231616 1852928 [ 231616 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_6_Response_Data: 118232 8512704 [ 0 0 118232 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_6_Writeback_Data: 230102 16567344 [ 0 0 230102 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_6_Writeback_Control: 343968 2751744 [ 230369 113599 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_6_Unblock_Control: 231883 1855064 [ 0 0 231883 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_7_Request_Control: 231916 1855328 [ 231916 0 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_7_Response_Data: 118277 8515944 [ 0 0 118277 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_7_Writeback_Data: 230397 16588584 [ 0 0 230397 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_7_Writeback_Control: 344339 2754712 [ 230701 113638 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_7_Unblock_Control: 232220 1857760 [ 0 0 232220 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_8_Request_Control: 118223 945784 [ 0 118223 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_8_Writeback_Data: 50653 3647016 [ 0 0 50653 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_8_Writeback_Control: 176551 1412408 [ 0 113602 62949 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_8_Unblock_Control: 118223 945784 [ 0 0 118223 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_9_Request_Control: 118247 945976 [ 0 118247 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_9_Writeback_Data: 50682 3649104 [ 0 0 50682 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_9_Writeback_Control: 176546 1412368 [ 0 113614 62932 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_9_Unblock_Control: 118247 945976 [ 0 0 118247 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_10_Request_Control: 118232 945856 [ 0 118232 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_10_Writeback_Data: 50674 3648528 [ 0 0 50674 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_10_Writeback_Control: 176524 1412192 [ 0 113599 62925 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_10_Unblock_Control: 118232 945856 [ 0 0 118232 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_11_Request_Control: 118277 946216 [ 0 118277 0 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_11_Writeback_Data: 50716 3651552 [ 0 0 50716 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_11_Writeback_Control: 176560 1412480 [ 0 113638 62922 0 0 0 0 0 0 0 ] base_latency: 1
+  outgoing_messages_switch_12_link_11_Unblock_Control: 118277 946216 [ 0 0 118277 0 0 0 0 0 0 0 ] base_latency: 1
+
+total_adds: 37094 [3 45 2362 37094 ]
+total_removes: 0 [0 0 0 0 ]
+total_adds: 37084 [3 45 2355 37084 ]
+total_removes: 0 [0 0 0 0 ]
+total_adds: 37080 [3 45 2348 37080 ]
+total_removes: 0 [0 0 0 0 ]
+total_adds: 37091 [4 46 2360 37091 ]
+total_removes: 0 [0 0 0 0 ]

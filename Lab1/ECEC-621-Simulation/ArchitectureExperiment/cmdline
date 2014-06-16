@@ -1,0 +1,27 @@
+*See run-all.sh
+
+
+Change the /home/DREXEL/jvk27/gem5-stable/src/cpu/o3/O3CPU.py parameter
+
+find line: 
+numPhysIntRegs = Param.Unsigned(256, "Number of physical integer registers")
+
+Change value: numPhysIntRegs : range [64, 128, 256, 512], default 256
+
+cd /home/DREXEL/jvk27/gem5-stable
+
+scons build/ALPHA/gem5.opt -j 8
+
+SSH in twice, to two different nodes:
+
+cd /home/DREXEL/jvk27/gem5-stable/build/ALPHA
+
+Make sure to give proper experiment name
+
+./gem5.opt --outdir=< EXPNAME > runSplash.py -d -n 4 --l1size 32kB --cacheblocksize 64 -b FFT --rootdir=/home/DREXEL/jvk27/splash2/codes 
+
+
+
+
+
+

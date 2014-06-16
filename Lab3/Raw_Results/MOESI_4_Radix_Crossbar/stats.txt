@@ -1,0 +1,730 @@
+
+---------- Begin Simulation Statistics ----------
+sim_seconds                                  0.144469                       # Number of seconds simulated
+sim_ticks                                144468931000                       # Number of ticks simulated
+final_tick                               144468931000                       # Number of ticks from beginning of simulation (restored from checkpoints and never reset)
+sim_freq                                 1000000000000                       # Frequency of simulated ticks
+host_inst_rate                                 123412                       # Simulator instruction rate (inst/s)
+host_op_rate                                   189062                       # Simulator op (including micro ops) rate (op/s)
+host_tick_rate                              203623705                       # Simulator tick rate (ticks/s)
+host_mem_usage                                 334032                       # Number of bytes of host memory used
+host_seconds                                   709.49                       # Real time elapsed on the host
+sim_insts                                    87559657                       # Number of instructions simulated
+sim_ops                                     134137771                       # Number of ops (including micro ops) simulated
+system.ruby.l1_cntrl0.L1Dcache.demand_hits      2348334                       # Number of cache demand hits
+system.ruby.l1_cntrl0.L1Dcache.demand_misses       232423                       # Number of cache demand misses
+system.ruby.l1_cntrl0.L1Dcache.demand_accesses      2580757                       # Number of cache demand accesses
+system.ruby.l1_cntrl0.L1Icache.demand_hits     30882075                       # Number of cache demand hits
+system.ruby.l1_cntrl0.L1Icache.demand_misses          692                       # Number of cache demand misses
+system.ruby.l1_cntrl0.L1Icache.demand_accesses     30882767                       # Number of cache demand accesses
+system.ruby.l1_cntrl1.L1Dcache.demand_hits      2339627                       # Number of cache demand hits
+system.ruby.l1_cntrl1.L1Dcache.demand_misses       230706                       # Number of cache demand misses
+system.ruby.l1_cntrl1.L1Dcache.demand_accesses      2570333                       # Number of cache demand accesses
+system.ruby.l1_cntrl1.L1Icache.demand_hits     30838429                       # Number of cache demand hits
+system.ruby.l1_cntrl1.L1Icache.demand_misses          159                       # Number of cache demand misses
+system.ruby.l1_cntrl1.L1Icache.demand_accesses     30838588                       # Number of cache demand accesses
+system.ruby.l1_cntrl2.L1Dcache.demand_hits      2335310                       # Number of cache demand hits
+system.ruby.l1_cntrl2.L1Dcache.demand_misses       231668                       # Number of cache demand misses
+system.ruby.l1_cntrl2.L1Dcache.demand_accesses      2566978                       # Number of cache demand accesses
+system.ruby.l1_cntrl2.L1Icache.demand_hits     30836100                       # Number of cache demand hits
+system.ruby.l1_cntrl2.L1Icache.demand_misses          146                       # Number of cache demand misses
+system.ruby.l1_cntrl2.L1Icache.demand_accesses     30836246                       # Number of cache demand accesses
+system.ruby.l1_cntrl3.L1Dcache.demand_hits      2326292                       # Number of cache demand hits
+system.ruby.l1_cntrl3.L1Dcache.demand_misses       233044                       # Number of cache demand misses
+system.ruby.l1_cntrl3.L1Dcache.demand_accesses      2559336                       # Number of cache demand accesses
+system.ruby.l1_cntrl3.L1Icache.demand_hits     30829933                       # Number of cache demand hits
+system.ruby.l1_cntrl3.L1Icache.demand_misses          155                       # Number of cache demand misses
+system.ruby.l1_cntrl3.L1Icache.demand_accesses     30830088                       # Number of cache demand accesses
+system.ruby.l2_cntrl1.L2cache.demand_hits       112809                       # Number of cache demand hits
+system.ruby.l2_cntrl1.L2cache.demand_misses       119335                       # Number of cache demand misses
+system.ruby.l2_cntrl1.L2cache.demand_accesses       232144                       # Number of cache demand accesses
+system.ruby.l2_cntrl0.L2cache.demand_hits       112655                       # Number of cache demand hits
+system.ruby.l2_cntrl0.L2cache.demand_misses       120662                       # Number of cache demand misses
+system.ruby.l2_cntrl0.L2cache.demand_accesses       233317                       # Number of cache demand accesses
+system.ruby.l2_cntrl3.L2cache.demand_hits       112770                       # Number of cache demand hits
+system.ruby.l2_cntrl3.L2cache.demand_misses       119146                       # Number of cache demand misses
+system.ruby.l2_cntrl3.L2cache.demand_accesses       231916                       # Number of cache demand accesses
+system.ruby.l2_cntrl2.L2cache.demand_hits       112515                       # Number of cache demand hits
+system.ruby.l2_cntrl2.L2cache.demand_misses       119101                       # Number of cache demand misses
+system.ruby.l2_cntrl2.L2cache.demand_accesses       231616                       # Number of cache demand accesses
+system.ruby.dir_cntrl0.memBuffer.memReq        168876                       # Total number of memory requests
+system.ruby.dir_cntrl0.memBuffer.memRead       118223                       # Number of memory reads
+system.ruby.dir_cntrl0.memBuffer.memWrite        50653                       # Number of memory writes
+system.ruby.dir_cntrl0.memBuffer.memRefresh       660127                       # Number of memory refreshes
+system.ruby.dir_cntrl0.memBuffer.memWaitCycles        25333                       # Delay stalled at the head of the bank queue
+system.ruby.dir_cntrl0.memBuffer.memInputQ          246                       # Delay in the input queue
+system.ruby.dir_cntrl0.memBuffer.memBankQ          261                       # Delay behind the head of the bank queue
+system.ruby.dir_cntrl0.memBuffer.totalStalls        25840                       # Total number of stall cycles
+system.ruby.dir_cntrl0.memBuffer.stallsPerReq     0.153012                       # Expected number of stall cycles per request
+system.ruby.dir_cntrl0.memBuffer.memBankBusy        15697                       # memory stalls due to busy bank
+system.ruby.dir_cntrl0.memBuffer.memBusBusy         6546                       # memory stalls due to busy bus
+system.ruby.dir_cntrl0.memBuffer.memReadWriteBusy          900                       # memory stalls due to read write turnaround
+system.ruby.dir_cntrl0.memBuffer.memDataBusBusy          569                       # memory stalls due to read read turnaround
+system.ruby.dir_cntrl0.memBuffer.memArbWait         1621                       # memory stalls due to arbitration
+system.ruby.dir_cntrl0.memBuffer.memBankCount |        5275      3.12%      3.12% |        5301      3.14%      6.26% |        5282      3.13%      9.39% |        5271      3.12%     12.51% |        5267      3.12%     15.63% |        5291      3.13%     18.76% |        5290      3.13%     21.90% |        5253      3.11%     25.01% |        5286      3.13%     28.14% |        5261      3.12%     31.25% |        5267      3.12%     34.37% |        5269      3.12%     37.49% |        5298      3.14%     40.63% |        5281      3.13%     43.76% |        5289      3.13%     46.89% |        5322      3.15%     50.04% |        5309      3.14%     53.18% |        5278      3.13%     56.31% |        5242      3.10%     59.41% |        5253      3.11%     62.52% |        5290      3.13%     65.65% |        5290      3.13%     68.79% |        5265      3.12%     71.90% |        5260      3.11%     75.02% |        5267      3.12%     78.14% |        5276      3.12%     81.26% |        5283      3.13%     84.39% |        5267      3.12%     87.51% |        5304      3.14%     90.65% |        5247      3.11%     93.76% |        5280      3.13%     96.88% |        5262      3.12%    100.00% # Number of accesses per bank
+system.ruby.dir_cntrl0.memBuffer.memBankCount::total       168876                       # Number of accesses per bank
+
+system.ruby.dir_cntrl1.memBuffer.memReq        168929                       # Total number of memory requests
+system.ruby.dir_cntrl1.memBuffer.memRead       118247                       # Number of memory reads
+system.ruby.dir_cntrl1.memBuffer.memWrite        50682                       # Number of memory writes
+system.ruby.dir_cntrl1.memBuffer.memRefresh       660116                       # Number of memory refreshes
+system.ruby.dir_cntrl1.memBuffer.memWaitCycles        27532                       # Delay stalled at the head of the bank queue
+system.ruby.dir_cntrl1.memBuffer.memInputQ          220                       # Delay in the input queue
+system.ruby.dir_cntrl1.memBuffer.memBankQ          247                       # Delay behind the head of the bank queue
+system.ruby.dir_cntrl1.memBuffer.totalStalls        27999                       # Total number of stall cycles
+system.ruby.dir_cntrl1.memBuffer.stallsPerReq     0.165744                       # Expected number of stall cycles per request
+system.ruby.dir_cntrl1.memBuffer.memBankBusy        17051                       # memory stalls due to busy bank
+system.ruby.dir_cntrl1.memBuffer.memBusBusy         6806                       # memory stalls due to busy bus
+system.ruby.dir_cntrl1.memBuffer.memReadWriteBusy          970                       # memory stalls due to read write turnaround
+system.ruby.dir_cntrl1.memBuffer.memDataBusBusy          543                       # memory stalls due to read read turnaround
+system.ruby.dir_cntrl1.memBuffer.memArbWait         2162                       # memory stalls due to arbitration
+system.ruby.dir_cntrl1.memBuffer.memBankCount |        5270      3.12%      3.12% |        5266      3.12%      6.24% |        5296      3.14%      9.37% |        5267      3.12%     12.49% |        5301      3.14%     15.63% |        5295      3.13%     18.76% |        5320      3.15%     21.91% |        5302      3.14%     25.05% |        5280      3.13%     28.18% |        5282      3.13%     31.30% |        5255      3.11%     34.41% |        5261      3.11%     37.53% |        5311      3.14%     40.67% |        5236      3.10%     43.77% |        5277      3.12%     46.89% |        5319      3.15%     50.04% |        5326      3.15%     53.20% |        5294      3.13%     56.33% |        5265      3.12%     59.45% |        5275      3.12%     62.57% |        5294      3.13%     65.70% |        5258      3.11%     68.82% |        5266      3.12%     71.93% |        5243      3.10%     75.04% |        5296      3.14%     78.17% |        5273      3.12%     81.29% |        5266      3.12%     84.41% |        5268      3.12%     87.53% |        5246      3.11%     90.63% |        5254      3.11%     93.74% |        5276      3.12%     96.87% |        5291      3.13%    100.00% # Number of accesses per bank
+system.ruby.dir_cntrl1.memBuffer.memBankCount::total       168929                       # Number of accesses per bank
+
+system.ruby.dir_cntrl2.memBuffer.memReq        168906                       # Total number of memory requests
+system.ruby.dir_cntrl2.memBuffer.memRead       118232                       # Number of memory reads
+system.ruby.dir_cntrl2.memBuffer.memWrite        50674                       # Number of memory writes
+system.ruby.dir_cntrl2.memBuffer.memRefresh       660142                       # Number of memory refreshes
+system.ruby.dir_cntrl2.memBuffer.memWaitCycles        25710                       # Delay stalled at the head of the bank queue
+system.ruby.dir_cntrl2.memBuffer.memInputQ          222                       # Delay in the input queue
+system.ruby.dir_cntrl2.memBuffer.memBankQ          279                       # Delay behind the head of the bank queue
+system.ruby.dir_cntrl2.memBuffer.totalStalls        26211                       # Total number of stall cycles
+system.ruby.dir_cntrl2.memBuffer.stallsPerReq     0.155181                       # Expected number of stall cycles per request
+system.ruby.dir_cntrl2.memBuffer.memBankBusy        15810                       # memory stalls due to busy bank
+system.ruby.dir_cntrl2.memBuffer.memBusBusy         6307                       # memory stalls due to busy bus
+system.ruby.dir_cntrl2.memBuffer.memReadWriteBusy          985                       # memory stalls due to read write turnaround
+system.ruby.dir_cntrl2.memBuffer.memDataBusBusy          619                       # memory stalls due to read read turnaround
+system.ruby.dir_cntrl2.memBuffer.memArbWait         1989                       # memory stalls due to arbitration
+system.ruby.dir_cntrl2.memBuffer.memBankCount |        5301      3.14%      3.14% |        5280      3.13%      6.26% |        5283      3.13%      9.39% |        5306      3.14%     12.53% |        5286      3.13%     15.66% |        5297      3.14%     18.80% |        5326      3.15%     21.95% |        5306      3.14%     25.09% |        5265      3.12%     28.21% |        5238      3.10%     31.31% |        5260      3.11%     34.43% |        5281      3.13%     37.55% |        5270      3.12%     40.67% |        5288      3.13%     43.80% |        5261      3.11%     46.92% |        5288      3.13%     50.05% |        5283      3.13%     53.18% |        5263      3.12%     56.29% |        5267      3.12%     59.41% |        5270      3.12%     62.53% |        5292      3.13%     65.66% |        5281      3.13%     68.79% |        5287      3.13%     71.92% |        5281      3.13%     75.05% |        5291      3.13%     78.18% |        5250      3.11%     81.29% |        5286      3.13%     84.42% |        5278      3.12%     87.54% |        5278      3.12%     90.67% |        5266      3.12%     93.79% |        5233      3.10%     96.88% |        5264      3.12%    100.00% # Number of accesses per bank
+system.ruby.dir_cntrl2.memBuffer.memBankCount::total       168906                       # Number of accesses per bank
+
+system.ruby.dir_cntrl3.memBuffer.memReq        168993                       # Total number of memory requests
+system.ruby.dir_cntrl3.memBuffer.memRead       118277                       # Number of memory reads
+system.ruby.dir_cntrl3.memBuffer.memWrite        50716                       # Number of memory writes
+system.ruby.dir_cntrl3.memBuffer.memRefresh       660325                       # Number of memory refreshes
+system.ruby.dir_cntrl3.memBuffer.memWaitCycles        25712                       # Delay stalled at the head of the bank queue
+system.ruby.dir_cntrl3.memBuffer.memInputQ          213                       # Delay in the input queue
+system.ruby.dir_cntrl3.memBuffer.memBankQ          296                       # Delay behind the head of the bank queue
+system.ruby.dir_cntrl3.memBuffer.totalStalls        26221                       # Total number of stall cycles
+system.ruby.dir_cntrl3.memBuffer.stallsPerReq     0.155160                       # Expected number of stall cycles per request
+system.ruby.dir_cntrl3.memBuffer.memBankBusy        16270                       # memory stalls due to busy bank
+system.ruby.dir_cntrl3.memBuffer.memBusBusy         6403                       # memory stalls due to busy bus
+system.ruby.dir_cntrl3.memBuffer.memReadWriteBusy          862                       # memory stalls due to read write turnaround
+system.ruby.dir_cntrl3.memBuffer.memDataBusBusy          584                       # memory stalls due to read read turnaround
+system.ruby.dir_cntrl3.memBuffer.memArbWait         1593                       # memory stalls due to arbitration
+system.ruby.dir_cntrl3.memBuffer.memBankCount |        5300      3.14%      3.14% |        5272      3.12%      6.26% |        5291      3.13%      9.39% |        5316      3.15%     12.53% |        5294      3.13%     15.67% |        5284      3.13%     18.79% |        5304      3.14%     21.93% |        5302      3.14%     25.07% |        5295      3.13%     28.20% |        5299      3.14%     31.34% |        5255      3.11%     34.45% |        5258      3.11%     37.56% |        5284      3.13%     40.68% |        5292      3.13%     43.82% |        5274      3.12%     46.94% |        5282      3.13%     50.06% |        5295      3.13%     53.20% |        5287      3.13%     56.32% |        5279      3.12%     59.45% |        5300      3.14%     62.58% |        5290      3.13%     65.71% |        5246      3.10%     68.82% |        5292      3.13%     71.95% |        5294      3.13%     75.08% |        5269      3.12%     78.20% |        5255      3.11%     81.31% |        5263      3.11%     84.42% |        5236      3.10%     87.52% |        5228      3.09%     90.62% |        5279      3.12%     93.74% |        5270      3.12%     96.86% |        5308      3.14%    100.00% # Number of accesses per bank
+system.ruby.dir_cntrl3.memBuffer.memBankCount::total       168993                       # Number of accesses per bank
+
+system.cpu0.workload.num_syscalls                  71                       # Number of system calls
+system.cpu0.numCycles                       288937862                       # number of cpu cycles simulated
+system.cpu0.numWorkItemsStarted                     0                       # number of work items this cpu started
+system.cpu0.numWorkItemsCompleted                   0                       # number of work items this cpu completed
+system.cpu0.committedInsts                   21915544                       # Number of instructions committed
+system.cpu0.committedOps                     33588803                       # Number of ops (including micro ops) committed
+system.cpu0.num_int_alu_accesses             14315913                       # Number of integer alu accesses
+system.cpu0.num_fp_alu_accesses              22704956                       # Number of float alu accesses
+system.cpu0.num_func_calls                       1162                       # number of times a function call or return occured
+system.cpu0.num_conditional_control_insts       682121                       # number of instructions that are conditional controls
+system.cpu0.num_int_insts                    14315913                       # number of integer instructions
+system.cpu0.num_fp_insts                     22704956                       # number of float instructions
+system.cpu0.num_int_register_reads           29419431                       # number of times the integer registers were read
+system.cpu0.num_int_register_writes          18162722                       # number of times the integer registers were written
+system.cpu0.num_fp_register_reads            50880222                       # number of times the floating registers were read
+system.cpu0.num_fp_register_writes           20990699                       # number of times the floating registers were written
+system.cpu0.num_mem_refs                      2580757                       # number of memory refs
+system.cpu0.num_load_insts                    1630893                       # Number of load instructions
+system.cpu0.num_store_insts                    949864                       # Number of store instructions
+system.cpu0.num_idle_cycles                         0                       # Number of idle cycles
+system.cpu0.num_busy_cycles                 288937862                       # Number of busy cycles
+system.cpu0.not_idle_fraction                       1                       # Percentage of non-idle cycles
+system.cpu0.idle_fraction                           0                       # Percentage of idle cycles
+system.cpu1.numCycles                       288590742                       # number of cpu cycles simulated
+system.cpu1.numWorkItemsStarted                     0                       # number of work items this cpu started
+system.cpu1.numWorkItemsCompleted                   0                       # number of work items this cpu completed
+system.cpu1.committedInsts                   21888042                       # Number of instructions committed
+system.cpu1.committedOps                     33516167                       # Number of ops (including micro ops) committed
+system.cpu1.num_int_alu_accesses             14248451                       # Number of integer alu accesses
+system.cpu1.num_fp_alu_accesses              22687847                       # Number of float alu accesses
+system.cpu1.num_func_calls                        124                       # number of times a function call or return occured
+system.cpu1.num_conditional_control_insts       680031                       # number of instructions that are conditional controls
+system.cpu1.num_int_insts                    14248451                       # number of integer instructions
+system.cpu1.num_fp_insts                     22687847                       # number of float instructions
+system.cpu1.num_int_register_reads           29283374                       # number of times the integer registers were read
+system.cpu1.num_int_register_writes          18072853                       # number of times the integer registers were written
+system.cpu1.num_fp_register_reads            50862245                       # number of times the floating registers were read
+system.cpu1.num_fp_register_writes           20977754                       # number of times the floating registers were written
+system.cpu1.num_mem_refs                      2570333                       # number of memory refs
+system.cpu1.num_load_insts                    1623933                       # Number of load instructions
+system.cpu1.num_store_insts                    946400                       # Number of store instructions
+system.cpu1.num_idle_cycles              666100.808890                       # Number of idle cycles
+system.cpu1.num_busy_cycles              287924641.191110                       # Number of busy cycles
+system.cpu1.not_idle_fraction                0.997692                       # Percentage of non-idle cycles
+system.cpu1.idle_fraction                    0.002308                       # Percentage of idle cycles
+system.cpu2.numCycles                       288589214                       # number of cpu cycles simulated
+system.cpu2.numWorkItemsStarted                     0                       # number of work items this cpu started
+system.cpu2.numWorkItemsCompleted                   0                       # number of work items this cpu completed
+system.cpu2.committedInsts                   21883466                       # Number of instructions committed
+system.cpu2.committedOps                     33516193                       # Number of ops (including micro ops) committed
+system.cpu2.num_int_alu_accesses             14247843                       # Number of integer alu accesses
+system.cpu2.num_fp_alu_accesses              22688581                       # Number of float alu accesses
+system.cpu2.num_func_calls                         70                       # number of times a function call or return occured
+system.cpu2.num_conditional_control_insts       678267                       # number of instructions that are conditional controls
+system.cpu2.num_int_insts                    14247843                       # number of integer instructions
+system.cpu2.num_fp_insts                     22688581                       # number of float instructions
+system.cpu2.num_int_register_reads           29265846                       # number of times the integer registers were read
+system.cpu2.num_int_register_writes          18084224                       # number of times the integer registers were written
+system.cpu2.num_fp_register_reads            50863903                       # number of times the floating registers were read
+system.cpu2.num_fp_register_writes           20978432                       # number of times the floating registers were written
+system.cpu2.num_mem_refs                      2566978                       # number of memory refs
+system.cpu2.num_load_insts                    1622567                       # Number of load instructions
+system.cpu2.num_store_insts                    944411                       # Number of store instructions
+system.cpu2.num_idle_cycles              688570.132376                       # Number of idle cycles
+system.cpu2.num_busy_cycles              287900643.867624                       # Number of busy cycles
+system.cpu2.not_idle_fraction                0.997614                       # Percentage of non-idle cycles
+system.cpu2.idle_fraction                    0.002386                       # Percentage of idle cycles
+system.cpu3.numCycles                       288589298                       # number of cpu cycles simulated
+system.cpu3.numWorkItemsStarted                     0                       # number of work items this cpu started
+system.cpu3.numWorkItemsCompleted                   0                       # number of work items this cpu completed
+system.cpu3.committedInsts                   21872605                       # Number of instructions committed
+system.cpu3.committedOps                     33516608                       # Number of ops (including micro ops) committed
+system.cpu3.num_int_alu_accesses             14244103                       # Number of integer alu accesses
+system.cpu3.num_fp_alu_accesses              22700910                       # Number of float alu accesses
+system.cpu3.num_func_calls                        118                       # number of times a function call or return occured
+system.cpu3.num_conditional_control_insts       673373                       # number of instructions that are conditional controls
+system.cpu3.num_int_insts                    14244103                       # number of integer instructions
+system.cpu3.num_fp_insts                     22700910                       # number of float instructions
+system.cpu3.num_int_register_reads           29215376                       # number of times the integer registers were read
+system.cpu3.num_int_register_writes          18094223                       # number of times the integer registers were written
+system.cpu3.num_fp_register_reads            50878331                       # number of times the floating registers were read
+system.cpu3.num_fp_register_writes           20988710                       # number of times the floating registers were written
+system.cpu3.num_mem_refs                      2559336                       # number of memory refs
+system.cpu3.num_load_insts                    1618640                       # Number of load instructions
+system.cpu3.num_store_insts                    940696                       # Number of store instructions
+system.cpu3.num_idle_cycles              689704.962370                       # Number of idle cycles
+system.cpu3.num_busy_cycles              287899593.037629                       # Number of busy cycles
+system.cpu3.not_idle_fraction                0.997610                       # Percentage of non-idle cycles
+system.cpu3.idle_fraction                    0.002390                       # Percentage of idle cycles
+system.ruby.l1_cntrl0.Load               |     1102204     25.15%     25.15% |     1097564     25.05%     50.20% |     1094143     24.97%     75.17% |     1088160     24.83%    100.00%
+system.ruby.l1_cntrl0.Load::total             4382071                      
+
+system.ruby.l1_cntrl0.Ifetch             |    30882767     25.03%     25.03% |    30838588     24.99%     50.02% |    30836246     24.99%     75.01% |    30830088     24.99%    100.00%
+system.ruby.l1_cntrl0.Ifetch::total         123387689                      
+
+system.ruby.l1_cntrl0.Store              |     1478553     25.08%     25.08% |     1472769     24.98%     50.06% |     1472836     24.98%     75.05% |     1471176     24.95%    100.00%
+system.ruby.l1_cntrl0.Store::total            5895334                      
+
+system.ruby.l1_cntrl0.L1_Replacement     |      231255     25.04%     25.04% |      229724     24.87%     49.92% |      230428     24.95%     74.87% |      232109     25.13%    100.00%
+system.ruby.l1_cntrl0.L1_Replacement::total       923516                      
+
+system.ruby.l1_cntrl0.Own_GETX           |           1     20.00%     20.00% |           3     60.00%     80.00% |           1     20.00%    100.00% |           0      0.00%    100.00%
+system.ruby.l1_cntrl0.Own_GETX::total               5                      
+
+system.ruby.l1_cntrl0.Fwd_GETX           |         554     28.21%     28.21% |         306     15.58%     43.79% |         561     28.56%     72.35% |         543     27.65%    100.00%
+system.ruby.l1_cntrl0.Fwd_GETX::total            1964                      
+
+system.ruby.l1_cntrl0.Fwd_GETS           |         968     24.41%     24.41% |        1118     28.19%     52.60% |        1290     32.53%     85.12% |         590     14.88%    100.00%
+system.ruby.l1_cntrl0.Fwd_GETS::total            3966                      
+
+system.ruby.l1_cntrl0.Inv                |          16     23.19%     23.19% |          19     27.54%     50.72% |          26     37.68%     88.41% |           8     11.59%    100.00%
+system.ruby.l1_cntrl0.Inv::total                   69                      
+
+system.ruby.l1_cntrl0.Ack                |         831     41.78%     41.78% |         290     14.58%     56.36% |         554     27.85%     84.21% |         314     15.79%    100.00%
+system.ruby.l1_cntrl0.Ack::total                 1989                      
+
+system.ruby.l1_cntrl0.Data               |         612     36.45%     36.45% |         176     10.48%     46.93% |         209     12.45%     59.38% |         682     40.62%    100.00%
+system.ruby.l1_cntrl0.Data::total                1679                      
+
+system.ruby.l1_cntrl0.Exclusive_Data     |      232502     25.07%     25.07% |      230686     24.88%     49.95% |      231604     24.98%     74.93% |      232517     25.07%    100.00%
+system.ruby.l1_cntrl0.Exclusive_Data::total       927309                      
+
+system.ruby.l1_cntrl0.Writeback_Ack      |         546     47.94%     47.94% |          30      2.63%     50.57% |          35      3.07%     53.64% |         528     46.36%    100.00%
+system.ruby.l1_cntrl0.Writeback_Ack::total         1139                      
+
+system.ruby.l1_cntrl0.Writeback_Ack_Data |      230508     25.02%     25.02% |      229287     24.89%     49.92% |      230222     24.99%     74.91% |      231132     25.09%    100.00%
+system.ruby.l1_cntrl0.Writeback_Ack_Data::total       921149                      
+
+system.ruby.l1_cntrl0.All_acks           |      154841     24.98%     24.98% |      154520     24.93%     49.91% |      155055     25.01%     74.92% |      155451     25.08%    100.00%
+system.ruby.l1_cntrl0.All_acks::total          619867                      
+
+system.ruby.l1_cntrl0.Use_Timeout        |      232502     25.07%     25.07% |      230689     24.88%     49.95% |      231605     24.98%     74.93% |      232517     25.07%    100.00%
+system.ruby.l1_cntrl0.Use_Timeout::total       927313                      
+
+system.ruby.l1_cntrl0.I.Load             |       77582     25.19%     25.19% |       76186     24.74%     49.93% |       76613     24.88%     74.81% |       77593     25.19%    100.00%
+system.ruby.l1_cntrl0.I.Load::total            307974                      
+
+system.ruby.l1_cntrl0.I.Ifetch           |         692     60.07%     60.07% |         159     13.80%     73.87% |         146     12.67%     86.55% |         155     13.45%    100.00%
+system.ruby.l1_cntrl0.I.Ifetch::total            1152                      
+
+system.ruby.l1_cntrl0.I.Store            |      154826     24.98%     24.98% |      154507     24.93%     49.91% |      155044     25.01%     74.92% |      155437     25.08%    100.00%
+system.ruby.l1_cntrl0.I.Store::total           619814                      
+
+system.ruby.l1_cntrl0.I.L1_Replacement   |         201     16.37%     16.37% |         407     33.14%     49.51% |         171     13.93%     63.44% |         449     36.56%    100.00%
+system.ruby.l1_cntrl0.I.L1_Replacement::total         1228                      
+
+system.ruby.l1_cntrl0.S.Load             |      150072     33.13%     33.13% |       10044      2.22%     35.34% |      148031     32.68%     68.02% |      144879     31.98%    100.00%
+system.ruby.l1_cntrl0.S.Load::total            453026                      
+
+system.ruby.l1_cntrl0.S.Ifetch           |     6904671      7.47%      7.47% |    30822398     33.34%     40.81% |    30827688     33.35%     74.16% |    23887278     25.84%    100.00%
+system.ruby.l1_cntrl0.S.Ifetch::total        92442035                      
+
+system.ruby.l1_cntrl0.S.Store            |          14     29.17%     29.17% |          10     20.83%     50.00% |          10     20.83%     70.83% |          14     29.17%    100.00%
+system.ruby.l1_cntrl0.S.Store::total               48                      
+
+system.ruby.l1_cntrl0.S.L1_Replacement   |         546     47.85%     47.85% |          30      2.63%     50.48% |          35      3.07%     53.55% |         530     46.45%    100.00%
+system.ruby.l1_cntrl0.S.L1_Replacement::total         1141                      
+
+system.ruby.l1_cntrl0.S.Fwd_GETS         |           0      0.00%      0.00% |           1    100.00%    100.00% |           0      0.00%    100.00% |           0      0.00%    100.00%
+system.ruby.l1_cntrl0.S.Fwd_GETS::total             1                      
+
+system.ruby.l1_cntrl0.S.Inv              |          16     23.19%     23.19% |          19     27.54%     50.72% |          26     37.68%     88.41% |           8     11.59%    100.00%
+system.ruby.l1_cntrl0.S.Inv::total                 69                      
+
+system.ruby.l1_cntrl0.O.Load             |         381      0.26%      0.26% |      139909     95.92%     96.18% |        3599      2.47%     98.65% |        1972      1.35%    100.00%
+system.ruby.l1_cntrl0.O.Load::total            145861                      
+
+system.ruby.l1_cntrl0.O.Ifetch           |    23901857     77.55%     77.55% |       10106      0.03%     77.59% |        8357      0.03%     77.61% |     6899112     22.39%    100.00%
+system.ruby.l1_cntrl0.O.Ifetch::total        30819432                      
+
+system.ruby.l1_cntrl0.O.Store            |           1     20.00%     20.00% |           3     60.00%     80.00% |           1     20.00%    100.00% |           0      0.00%    100.00%
+system.ruby.l1_cntrl0.O.Store::total                5                      
+
+system.ruby.l1_cntrl0.O.L1_Replacement   |          53      6.19%      6.19% |         268     31.31%     37.50% |         526     61.45%     98.95% |           9      1.05%    100.00%
+system.ruby.l1_cntrl0.O.L1_Replacement::total          856                      
+
+system.ruby.l1_cntrl0.O.Fwd_GETX         |          10     18.18%     18.18% |          23     41.82%     60.00% |          14     25.45%     85.45% |           8     14.55%    100.00%
+system.ruby.l1_cntrl0.O.Fwd_GETX::total            55                      
+
+system.ruby.l1_cntrl0.O.Fwd_GETS         |         200     33.28%     33.28% |          70     11.65%     44.93% |         267     44.43%     89.35% |          64     10.65%    100.00%
+system.ruby.l1_cntrl0.O.Fwd_GETS::total           601                      
+
+system.ruby.l1_cntrl0.M.Load             |      467870     25.22%     25.22% |      460543     24.82%     50.04% |      462323     24.92%     74.95% |      464739     25.05%    100.00%
+system.ruby.l1_cntrl0.M.Load::total           1855475                      
+
+system.ruby.l1_cntrl0.M.Ifetch           |       71917     59.40%     59.40% |        5758      4.76%     64.16% |           9      0.01%     64.17% |       43381     35.83%    100.00%
+system.ruby.l1_cntrl0.M.Ifetch::total          121065                      
+
+system.ruby.l1_cntrl0.M.Store            |        1545     24.80%     24.80% |        1518     24.37%     49.17% |        1576     25.30%     74.47% |        1590     25.53%    100.00%
+system.ruby.l1_cntrl0.M.Store::total             6229                      
+
+system.ruby.l1_cntrl0.M.L1_Replacement   |       66554     25.27%     25.27% |       65371     24.82%     50.09% |       65387     24.83%     74.92% |       66041     25.08%    100.00%
+system.ruby.l1_cntrl0.M.L1_Replacement::total       263353                      
+
+system.ruby.l1_cntrl0.M.Fwd_GETX         |           6      2.14%      2.14% |           8      2.86%      5.00% |           4      1.43%      6.43% |         262     93.57%    100.00%
+system.ruby.l1_cntrl0.M.Fwd_GETX::total           280                      
+
+system.ruby.l1_cntrl0.M.Fwd_GETS         |         132     12.45%     12.45% |         333     31.42%     43.87% |         552     52.08%     95.94% |          43      4.06%    100.00%
+system.ruby.l1_cntrl0.M.Fwd_GETS::total          1060                      
+
+system.ruby.l1_cntrl0.M_W.Load           |         877     39.85%     39.85% |         309     14.04%     53.88% |         315     14.31%     68.20% |         700     31.80%    100.00%
+system.ruby.l1_cntrl0.M_W.Load::total            2201                      
+
+system.ruby.l1_cntrl0.M_W.Ifetch         |        3630     90.64%     90.64% |         167      4.17%     94.81% |          46      1.15%     95.96% |         162      4.04%    100.00%
+system.ruby.l1_cntrl0.M_W.Ifetch::total          4005                      
+
+system.ruby.l1_cntrl0.M_W.Store          |        8886     24.97%     24.97% |        8805     24.74%     49.71% |        8902     25.01%     74.73% |        8994     25.27%    100.00%
+system.ruby.l1_cntrl0.M_W.Store::total          35587                      
+
+system.ruby.l1_cntrl0.M_W.Fwd_GETX       |           7     22.58%     22.58% |          11     35.48%     58.06% |           6     19.35%     77.42% |           7     22.58%    100.00%
+system.ruby.l1_cntrl0.M_W.Fwd_GETX::total           31                      
+
+system.ruby.l1_cntrl0.M_W.Fwd_GETS       |          59     17.61%     17.61% |         102     30.45%     48.06% |          96     28.66%     76.72% |          78     23.28%    100.00%
+system.ruby.l1_cntrl0.M_W.Fwd_GETS::total          335                      
+
+system.ruby.l1_cntrl0.M_W.Use_Timeout    |       68775     25.30%     25.30% |       67364     24.78%     50.08% |       67648     24.88%     74.96% |       68072     25.04%    100.00%
+system.ruby.l1_cntrl0.M_W.Use_Timeout::total       271859                      
+
+system.ruby.l1_cntrl0.MM.Load            |      405128     25.06%     25.06% |      410289     25.38%     50.45% |      402979     24.93%     75.38% |      397987     24.62%    100.00%
+system.ruby.l1_cntrl0.MM.Load::total          1616383                      
+
+system.ruby.l1_cntrl0.MM.Store           |     1301549     25.08%     25.08% |     1297175     25.00%     50.08% |     1296217     24.98%     75.06% |     1294176     24.94%    100.00%
+system.ruby.l1_cntrl0.MM.Store::total         5189117                      
+
+system.ruby.l1_cntrl0.MM.L1_Replacement  |      163901     24.95%     24.95% |      163648     24.91%     49.86% |      164309     25.01%     74.87% |      165080     25.13%    100.00%
+system.ruby.l1_cntrl0.MM.L1_Replacement::total       656938                      
+
+system.ruby.l1_cntrl0.MM.Fwd_GETX        |         531     33.61%     33.61% |         259     16.39%     50.00% |         527     33.35%     83.35% |         263     16.65%    100.00%
+system.ruby.l1_cntrl0.MM.Fwd_GETX::total         1580                      
+
+system.ruby.l1_cntrl0.MM.Fwd_GETS        |         486     28.88%     28.88% |         561     33.33%     62.21% |         318     18.89%     81.11% |         318     18.89%    100.00%
+system.ruby.l1_cntrl0.MM.Fwd_GETS::total         1683                      
+
+system.ruby.l1_cntrl0.MM_W.Load          |         294     25.54%     25.54% |         284     24.67%     50.22% |         283     24.59%     74.80% |         290     25.20%    100.00%
+system.ruby.l1_cntrl0.MM_W.Load::total           1151                      
+
+system.ruby.l1_cntrl0.MM_W.Store         |       11732     26.34%     26.34% |       10751     24.14%     50.49% |       11085     24.89%     75.38% |       10965     24.62%    100.00%
+system.ruby.l1_cntrl0.MM_W.Store::total         44533                      
+
+system.ruby.l1_cntrl0.MM_W.Fwd_GETX      |           0      0.00%      0.00% |           5     27.78%     27.78% |          10     55.56%     83.33% |           3     16.67%    100.00%
+system.ruby.l1_cntrl0.MM_W.Fwd_GETX::total           18                      
+
+system.ruby.l1_cntrl0.MM_W.Fwd_GETS      |          91     31.82%     31.82% |          51     17.83%     49.65% |          57     19.93%     69.58% |          87     30.42%    100.00%
+system.ruby.l1_cntrl0.MM_W.Fwd_GETS::total          286                      
+
+system.ruby.l1_cntrl0.MM_W.Use_Timeout   |      163727     24.98%     24.98% |      163325     24.92%     49.90% |      163957     25.01%     74.91% |      164445     25.09%    100.00%
+system.ruby.l1_cntrl0.MM_W.Use_Timeout::total       655454                      
+
+system.ruby.l1_cntrl0.IM.Ack             |         797     42.48%     42.48% |         267     14.23%     56.72% |         535     28.52%     85.23% |         277     14.77%    100.00%
+system.ruby.l1_cntrl0.IM.Ack::total              1876                      
+
+system.ruby.l1_cntrl0.IM.Exclusive_Data  |      154826     24.98%     24.98% |      154507     24.93%     49.91% |      155044     25.01%     74.92% |      155437     25.08%    100.00%
+system.ruby.l1_cntrl0.IM.Exclusive_Data::total       619814                      
+
+system.ruby.l1_cntrl0.SM.Ack             |          32     32.32%     32.32% |          16     16.16%     48.48% |          15     15.15%     63.64% |          36     36.36%    100.00%
+system.ruby.l1_cntrl0.SM.Ack::total                99                      
+
+system.ruby.l1_cntrl0.SM.Exclusive_Data  |          14     29.17%     29.17% |          10     20.83%     50.00% |          10     20.83%     70.83% |          14     29.17%    100.00%
+system.ruby.l1_cntrl0.SM.Exclusive_Data::total           48                      
+
+system.ruby.l1_cntrl0.OM.Own_GETX        |           1     20.00%     20.00% |           3     60.00%     80.00% |           1     20.00%    100.00% |           0      0.00%    100.00%
+system.ruby.l1_cntrl0.OM.Own_GETX::total            5                      
+
+system.ruby.l1_cntrl0.OM.Ack             |           2     14.29%     14.29% |           7     50.00%     64.29% |           4     28.57%     92.86% |           1      7.14%    100.00%
+system.ruby.l1_cntrl0.OM.Ack::total                14                      
+
+system.ruby.l1_cntrl0.OM.All_acks        |      154841     24.98%     24.98% |      154520     24.93%     49.91% |      155055     25.01%     74.92% |      155451     25.08%    100.00%
+system.ruby.l1_cntrl0.OM.All_acks::total       619867                      
+
+system.ruby.l1_cntrl0.IS.Data            |         612     36.45%     36.45% |         176     10.48%     46.93% |         209     12.45%     59.38% |         682     40.62%    100.00%
+system.ruby.l1_cntrl0.IS.Data::total             1679                      
+
+system.ruby.l1_cntrl0.IS.Exclusive_Data  |       77662     25.26%     25.26% |       76169     24.77%     50.03% |       76550     24.90%     74.93% |       77066     25.07%    100.00%
+system.ruby.l1_cntrl0.IS.Exclusive_Data::total       307447                      
+
+system.ruby.l1_cntrl0.SI.Writeback_Ack   |         546     47.94%     47.94% |          30      2.63%     50.57% |          35      3.07%     53.64% |         528     46.36%    100.00%
+system.ruby.l1_cntrl0.SI.Writeback_Ack::total         1139                      
+
+system.ruby.l1_cntrl0.SI.Writeback_Ack_Data |           0      0.00%      0.00% |           0      0.00%      0.00% |           0      0.00%      0.00% |           2    100.00%    100.00%
+system.ruby.l1_cntrl0.SI.Writeback_Ack_Data::total            2                      
+
+system.ruby.l1_cntrl0.OI.Writeback_Ack_Data |          53      6.19%      6.19% |         268     31.31%     37.50% |         526     61.45%     98.95% |           9      1.05%    100.00%
+system.ruby.l1_cntrl0.OI.Writeback_Ack_Data::total          856                      
+
+system.ruby.l1_cntrl0.MI.Store           |           0      0.00%      0.00% |           0      0.00%      0.00% |           1    100.00%    100.00% |           0      0.00%    100.00%
+system.ruby.l1_cntrl0.MI.Store::total               1                      
+
+system.ruby.l1_cntrl0.MI.Writeback_Ack_Data |      230455     25.04%     25.04% |      229019     24.89%     49.93% |      229696     24.96%     74.89% |      231121     25.11%    100.00%
+system.ruby.l1_cntrl0.MI.Writeback_Ack_Data::total       920291                      
+
+system.ruby.l2_cntrl0.L1_GETS            |       77375     24.95%     24.95% |       78139     25.19%     50.14% |       77326     24.93%     75.07% |       77321     24.93%    100.00%
+system.ruby.l2_cntrl0.L1_GETS::total           310161                      
+
+system.ruby.l2_cntrl0.L1_GETX            |      156018     25.17%     25.17% |      154846     24.98%     50.14% |      154430     24.91%     75.06% |      154639     24.94%    100.00%
+system.ruby.l2_cntrl0.L1_GETX::total           619933                      
+
+system.ruby.l2_cntrl0.L1_PUTO            |         222     25.87%     25.87% |         212     24.71%     50.58% |         207     24.13%     74.71% |         217     25.29%    100.00%
+system.ruby.l2_cntrl0.L1_PUTO::total              858                      
+
+system.ruby.l2_cntrl0.L1_PUTX            |      230021     24.99%     24.99% |      230197     25.01%     50.01% |      229894     24.98%     74.99% |      230179     25.01%    100.00%
+system.ruby.l2_cntrl0.L1_PUTX::total           920291                      
+
+system.ruby.l2_cntrl0.L1_PUTS_only       |         215     26.00%     26.00% |         205     24.79%     50.79% |         198     23.94%     74.73% |         209     25.27%    100.00%
+system.ruby.l2_cntrl0.L1_PUTS_only::total          827                      
+
+system.ruby.l2_cntrl0.L1_PUTS            |          78     24.45%     24.45% |          70     21.94%     46.39% |          70     21.94%     68.34% |         101     31.66%    100.00%
+system.ruby.l2_cntrl0.L1_PUTS::total              319                      
+
+system.ruby.l2_cntrl0.All_Acks           |       52989     25.00%     25.00% |       53012     25.01%     50.00% |       52975     24.99%     74.99% |       53014     25.01%    100.00%
+system.ruby.l2_cntrl0.All_Acks::total          211990                      
+
+system.ruby.l2_cntrl0.Data               |       52989     25.00%     25.00% |       53012     25.01%     50.00% |       52975     24.99%     74.99% |       53014     25.01%    100.00%
+system.ruby.l2_cntrl0.Data::total              211990                      
+
+system.ruby.l2_cntrl0.Data_Exclusive     |       65234     24.99%     24.99% |       65235     25.00%     49.99% |       65257     25.00%     74.99% |       65263     25.01%    100.00%
+system.ruby.l2_cntrl0.Data_Exclusive::total       260989                      
+
+system.ruby.l2_cntrl0.L1_WBCLEANDATA     |       64970     25.01%     25.01% |       64942     24.99%     50.00% |       64938     24.99%     74.99% |       64977     25.01%    100.00%
+system.ruby.l2_cntrl0.L1_WBCLEANDATA::total       259827                      
+
+system.ruby.l2_cntrl0.L1_WBDIRTYDATA     |      165271     24.99%     24.99% |      165467     25.02%     50.01% |      165164     24.97%     74.99% |      165420     25.01%    100.00%
+system.ruby.l2_cntrl0.L1_WBDIRTYDATA::total       661322                      
+
+system.ruby.l2_cntrl0.Writeback_Ack      |      113602     25.00%     25.00% |      113614     25.00%     50.00% |      113599     25.00%     74.99% |      113638     25.01%    100.00%
+system.ruby.l2_cntrl0.Writeback_Ack::total       454453                      
+
+system.ruby.l2_cntrl0.Unblock            |         699     24.80%     24.80% |         755     26.79%     51.60% |         648     23.00%     74.59% |         716     25.41%    100.00%
+system.ruby.l2_cntrl0.Unblock::total             2818                      
+
+system.ruby.l2_cntrl0.Exclusive_Unblock  |      232911     25.12%     25.12% |      231664     24.98%     50.10% |      231235     24.94%     75.03% |      231504     24.97%    100.00%
+system.ruby.l2_cntrl0.Exclusive_Unblock::total       927314                      
+
+system.ruby.l2_cntrl0.L2_Replacement     |      113602     25.00%     25.00% |      113614     25.00%     50.00% |      113600     25.00%     74.99% |      113639     25.01%    100.00%
+system.ruby.l2_cntrl0.L2_Replacement::total       454455                      
+
+system.ruby.l2_cntrl0.NP.L1_GETS         |       65234     24.99%     24.99% |       65235     25.00%     49.99% |       65257     25.00%     74.99% |       65263     25.01%    100.00%
+system.ruby.l2_cntrl0.NP.L1_GETS::total        260989                      
+
+system.ruby.l2_cntrl0.NP.L1_GETX         |       52989     25.00%     25.00% |       53012     25.01%     50.00% |       52975     24.99%     74.99% |       53014     25.01%    100.00%
+system.ruby.l2_cntrl0.NP.L1_GETX::total        211990                      
+
+system.ruby.l2_cntrl0.ILS.L1_GETS        |           0      0.00%      0.00% |           1    100.00%    100.00% |           0      0.00%    100.00% |           0      0.00%    100.00%
+system.ruby.l2_cntrl0.ILS.L1_GETS::total            1                      
+
+system.ruby.l2_cntrl0.ILS.L1_PUTS_only   |           0      0.00%      0.00% |           0      0.00%      0.00% |           0      0.00%      0.00% |           1    100.00%    100.00%
+system.ruby.l2_cntrl0.ILS.L1_PUTS_only::total            1                      
+
+system.ruby.l2_cntrl0.ILS.L1_PUTS        |           0      0.00%      0.00% |           0      0.00%      0.00% |           1    100.00%    100.00% |           0      0.00%    100.00%
+system.ruby.l2_cntrl0.ILS.L1_PUTS::total            1                      
+
+system.ruby.l2_cntrl0.ILX.L1_GETS        |         670     24.43%     24.43% |         766     27.93%     52.35% |         659     24.02%     76.38% |         648     23.62%    100.00%
+system.ruby.l2_cntrl0.ILX.L1_GETS::total         2743                      
+
+system.ruby.l2_cntrl0.ILX.L1_GETX        |        1620     87.10%     87.10% |          98      5.27%     92.37% |          70      3.76%     96.13% |          72      3.87%    100.00%
+system.ruby.l2_cntrl0.ILX.L1_GETX::total         1860                      
+
+system.ruby.l2_cntrl0.ILX.L1_PUTX        |      230021     24.99%     24.99% |      230197     25.01%     50.01% |      229894     24.98%     74.99% |      230179     25.01%    100.00%
+system.ruby.l2_cntrl0.ILX.L1_PUTX::total       920291                      
+
+system.ruby.l2_cntrl0.ILOX.L1_GETS       |           5     55.56%     55.56% |           2     22.22%     77.78% |           0      0.00%     77.78% |           2     22.22%    100.00%
+system.ruby.l2_cntrl0.ILOX.L1_GETS::total            9                      
+
+system.ruby.l2_cntrl0.ILOX.L1_GETX       |           0      0.00%      0.00% |           1    100.00%    100.00% |           0      0.00%    100.00% |           0      0.00%    100.00%
+system.ruby.l2_cntrl0.ILOX.L1_GETX::total            1                      
+
+system.ruby.l2_cntrl0.ILOX.L1_PUTO       |          76     27.64%     27.64% |          66     24.00%     51.64% |          67     24.36%     76.00% |          66     24.00%    100.00%
+system.ruby.l2_cntrl0.ILOX.L1_PUTO::total          275                      
+
+system.ruby.l2_cntrl0.ILOSX.L1_GETS      |         142     23.99%     23.99% |         175     29.56%     53.55% |         129     21.79%     75.34% |         146     24.66%    100.00%
+system.ruby.l2_cntrl0.ILOSX.L1_GETS::total          592                      
+
+system.ruby.l2_cntrl0.ILOSX.L1_GETX      |           2      3.39%      3.39% |          45     76.27%     79.66% |          11     18.64%     98.31% |           1      1.69%    100.00%
+system.ruby.l2_cntrl0.ILOSX.L1_GETX::total           59                      
+
+system.ruby.l2_cntrl0.ILOSX.L1_PUTO      |         144     24.78%     24.78% |         146     25.13%     49.91% |         140     24.10%     74.01% |         151     25.99%    100.00%
+system.ruby.l2_cntrl0.ILOSX.L1_PUTO::total          581                      
+
+system.ruby.l2_cntrl0.ILOSX.L1_PUTS_only |          81     28.32%     28.32% |          69     24.13%     52.45% |          68     23.78%     76.22% |          68     23.78%    100.00%
+system.ruby.l2_cntrl0.ILOSX.L1_PUTS_only::total          286                      
+
+system.ruby.l2_cntrl0.ILOSX.L1_PUTS      |          49     28.82%     28.82% |          41     24.12%     52.94% |          37     21.76%     74.71% |          43     25.29%    100.00%
+system.ruby.l2_cntrl0.ILOSX.L1_PUTS::total          170                      
+
+system.ruby.l2_cntrl0.S.L2_Replacement   |           0      0.00%      0.00% |           0      0.00%      0.00% |           1     50.00%     50.00% |           1     50.00%    100.00%
+system.ruby.l2_cntrl0.S.L2_Replacement::total            2                      
+
+system.ruby.l2_cntrl0.OLSX.L1_GETS       |           1      5.88%      5.88% |           4     23.53%     29.41% |           2     11.76%     41.18% |          10     58.82%    100.00%
+system.ruby.l2_cntrl0.OLSX.L1_GETS::total           17                      
+
+system.ruby.l2_cntrl0.OLSX.L1_GETX       |           0      0.00%      0.00% |           1    100.00%    100.00% |           0      0.00%    100.00% |           0      0.00%    100.00%
+system.ruby.l2_cntrl0.OLSX.L1_GETX::total            1                      
+
+system.ruby.l2_cntrl0.OLSX.L1_PUTS_only  |         134     24.86%     24.86% |         136     25.23%     50.09% |         129     23.93%     74.03% |         140     25.97%    100.00%
+system.ruby.l2_cntrl0.OLSX.L1_PUTS_only::total          539                      
+
+system.ruby.l2_cntrl0.OLSX.L1_PUTS       |          29     20.42%     20.42% |          29     20.42%     40.85% |          31     21.83%     62.68% |          53     37.32%    100.00%
+system.ruby.l2_cntrl0.OLSX.L1_PUTS::total          142                      
+
+system.ruby.l2_cntrl0.OLSX.L2_Replacement |           1     20.00%     20.00% |           1     20.00%     40.00% |           1     20.00%     60.00% |           2     40.00%    100.00%
+system.ruby.l2_cntrl0.OLSX.L2_Replacement::total            5                      
+
+system.ruby.l2_cntrl0.SLS.L1_PUTS_only   |           0      0.00%      0.00% |           0      0.00%      0.00% |           1    100.00%    100.00% |           0      0.00%    100.00%
+system.ruby.l2_cntrl0.SLS.L1_PUTS_only::total            1                      
+
+system.ruby.l2_cntrl0.SLS.L1_PUTS        |           0      0.00%      0.00% |           0      0.00%      0.00% |           1    100.00%    100.00% |           0      0.00%    100.00%
+system.ruby.l2_cntrl0.SLS.L1_PUTS::total            1                      
+
+system.ruby.l2_cntrl0.M.L1_GETS          |       11249     25.12%     25.12% |       11173     24.95%     50.08% |       11143     24.89%     74.96% |       11210     25.04%    100.00%
+system.ruby.l2_cntrl0.M.L1_GETS::total          44775                      
+
+system.ruby.l2_cntrl0.M.L1_GETX          |      101405     24.98%     24.98% |      101631     25.03%     50.01% |      101370     24.97%     74.98% |      101550     25.02%    100.00%
+system.ruby.l2_cntrl0.M.L1_GETX::total         405956                      
+
+system.ruby.l2_cntrl0.M.L2_Replacement   |      113601     25.00%     25.00% |      113613     25.00%     50.00% |      113598     25.00%     74.99% |      113636     25.01%    100.00%
+system.ruby.l2_cntrl0.M.L2_Replacement::total       454448                      
+
+system.ruby.l2_cntrl0.ILOXW.L1_PUTO      |           2    100.00%    100.00% |           0      0.00%    100.00% |           0      0.00%    100.00% |           0      0.00%    100.00%
+system.ruby.l2_cntrl0.ILOXW.L1_PUTO::total            2                      
+
+system.ruby.l2_cntrl0.ILOXW.L1_WBCLEANDATA |           1     33.33%     33.33% |           0      0.00%     33.33% |           0      0.00%     33.33% |           2     66.67%    100.00%
+system.ruby.l2_cntrl0.ILOXW.L1_WBCLEANDATA::total            3                      
+
+system.ruby.l2_cntrl0.ILOXW.L1_WBDIRTYDATA |          75     27.57%     27.57% |          66     24.26%     51.84% |          67     24.63%     76.47% |          64     23.53%    100.00%
+system.ruby.l2_cntrl0.ILOXW.L1_WBDIRTYDATA::total          272                      
+
+system.ruby.l2_cntrl0.ILOXW.Unblock      |          81     28.32%     28.32% |          69     24.13%     52.45% |          68     23.78%     76.22% |          68     23.78%    100.00%
+system.ruby.l2_cntrl0.ILOXW.Unblock::total          286                      
+
+system.ruby.l2_cntrl0.ILOSXW.L1_PUTS     |           0      0.00%      0.00% |           0      0.00%      0.00% |           0      0.00%      0.00% |           3    100.00%    100.00%
+system.ruby.l2_cntrl0.ILOSXW.L1_PUTS::total            3                      
+
+system.ruby.l2_cntrl0.ILOSXW.L1_WBCLEANDATA |          16     27.12%     27.12% |          10     16.95%     44.07% |          12     20.34%     64.41% |          21     35.59%    100.00%
+system.ruby.l2_cntrl0.ILOSXW.L1_WBCLEANDATA::total           59                      
+
+system.ruby.l2_cntrl0.ILOSXW.L1_WBDIRTYDATA |         128     24.52%     24.52% |         136     26.05%     50.57% |         128     24.52%     75.10% |         130     24.90%    100.00%
+system.ruby.l2_cntrl0.ILOSXW.L1_WBDIRTYDATA::total          522                      
+
+system.ruby.l2_cntrl0.ILOSXW.Unblock     |          49     28.82%     28.82% |          41     24.12%     52.94% |          37     21.76%     74.71% |          43     25.29%    100.00%
+system.ruby.l2_cntrl0.ILOSXW.Unblock::total          170                      
+
+system.ruby.l2_cntrl0.SLSW.Unblock       |           0      0.00%      0.00% |           0      0.00%      0.00% |           1    100.00%    100.00% |           0      0.00%    100.00%
+system.ruby.l2_cntrl0.SLSW.Unblock::total            1                      
+
+system.ruby.l2_cntrl0.ILSW.L1_WBCLEANDATA |           0      0.00%      0.00% |           0      0.00%      0.00% |           1    100.00%    100.00% |           0      0.00%    100.00%
+system.ruby.l2_cntrl0.ILSW.L1_WBCLEANDATA::total            1                      
+
+system.ruby.l2_cntrl0.IW.L1_WBCLEANDATA  |           0      0.00%      0.00% |           0      0.00%      0.00% |           0      0.00%      0.00% |           1    100.00%    100.00%
+system.ruby.l2_cntrl0.IW.L1_WBCLEANDATA::total            1                      
+
+system.ruby.l2_cntrl0.SW.Unblock         |           0      0.00%      0.00% |           0      0.00%      0.00% |           1    100.00%    100.00% |           0      0.00%    100.00%
+system.ruby.l2_cntrl0.SW.Unblock::total             1                      
+
+system.ruby.l2_cntrl0.OXW.Unblock        |         134     24.86%     24.86% |         136     25.23%     50.09% |         129     23.93%     74.03% |         140     25.97%    100.00%
+system.ruby.l2_cntrl0.OXW.Unblock::total          539                      
+
+system.ruby.l2_cntrl0.OLSXW.L1_PUTS      |           0      0.00%      0.00% |           0      0.00%      0.00% |           0      0.00%      0.00% |           2    100.00%    100.00%
+system.ruby.l2_cntrl0.OLSXW.L1_PUTS::total            2                      
+
+system.ruby.l2_cntrl0.OLSXW.Unblock      |          29     20.42%     20.42% |          29     20.42%     40.85% |          31     21.83%     62.68% |          53     37.32%    100.00%
+system.ruby.l2_cntrl0.OLSXW.Unblock::total          142                      
+
+system.ruby.l2_cntrl0.ILXW.L1_WBCLEANDATA |       64953     25.00%     25.00% |       64932     25.00%     50.00% |       64925     24.99%     75.00% |       64953     25.00%    100.00%
+system.ruby.l2_cntrl0.ILXW.L1_WBCLEANDATA::total       259763                      
+
+system.ruby.l2_cntrl0.ILXW.L1_WBDIRTYDATA |      165068     24.99%     24.99% |      165265     25.02%     50.01% |      164969     24.98%     74.99% |      165226     25.01%    100.00%
+system.ruby.l2_cntrl0.ILXW.L1_WBDIRTYDATA::total       660528                      
+
+system.ruby.l2_cntrl0.IFLS.Unblock       |           0      0.00%      0.00% |           1    100.00%    100.00% |           0      0.00%    100.00% |           0      0.00%    100.00%
+system.ruby.l2_cntrl0.IFLS.Unblock::total            1                      
+
+system.ruby.l2_cntrl0.IFLOX.Unblock      |           5     55.56%     55.56% |           2     22.22%     77.78% |           0      0.00%     77.78% |           2     22.22%    100.00%
+system.ruby.l2_cntrl0.IFLOX.Unblock::total            9                      
+
+system.ruby.l2_cntrl0.IFLOX.Exclusive_Unblock |           0      0.00%      0.00% |           1    100.00%    100.00% |           0      0.00%    100.00% |           0      0.00%    100.00%
+system.ruby.l2_cntrl0.IFLOX.Exclusive_Unblock::total            1                      
+
+system.ruby.l2_cntrl0.IFLOXX.L1_GETS     |          34      3.97%      3.97% |         711     82.96%     86.93% |          93     10.85%     97.78% |          19      2.22%    100.00%
+system.ruby.l2_cntrl0.IFLOXX.L1_GETS::total          857                      
+
+system.ruby.l2_cntrl0.IFLOXX.L1_GETX     |           2      3.57%      3.57% |          52     92.86%     96.43% |           2      3.57%    100.00% |           0      0.00%    100.00%
+system.ruby.l2_cntrl0.IFLOXX.L1_GETX::total           56                      
+
+system.ruby.l2_cntrl0.IFLOXX.Unblock     |         258     24.34%     24.34% |         298     28.11%     52.45% |         250     23.58%     76.04% |         254     23.96%    100.00%
+system.ruby.l2_cntrl0.IFLOXX.Unblock::total         1060                      
+
+system.ruby.l2_cntrl0.IFLOXX.Exclusive_Unblock |        2032     57.34%     57.34% |         567     16.00%     73.34% |         479     13.52%     86.85% |         466     13.15%    100.00%
+system.ruby.l2_cntrl0.IFLOXX.Exclusive_Unblock::total         3544                      
+
+system.ruby.l2_cntrl0.IFLOSX.L1_GETS     |          11     26.19%     26.19% |          23     54.76%     80.95% |           8     19.05%    100.00% |           0      0.00%    100.00%
+system.ruby.l2_cntrl0.IFLOSX.L1_GETS::total           42                      
+
+system.ruby.l2_cntrl0.IFLOSX.L1_GETX     |           0      0.00%      0.00% |           6    100.00%    100.00% |           0      0.00%    100.00% |           0      0.00%    100.00%
+system.ruby.l2_cntrl0.IFLOSX.L1_GETX::total            6                      
+
+system.ruby.l2_cntrl0.IFLOSX.Unblock     |         142     23.99%     23.99% |         175     29.56%     53.55% |         129     21.79%     75.34% |         146     24.66%    100.00%
+system.ruby.l2_cntrl0.IFLOSX.Unblock::total          592                      
+
+system.ruby.l2_cntrl0.IFLXO.L1_GETS      |           1      2.33%      2.33% |          34     79.07%     81.40% |           8     18.60%    100.00% |           0      0.00%    100.00%
+system.ruby.l2_cntrl0.IFLXO.L1_GETS::total           43                      
+
+system.ruby.l2_cntrl0.IFLXO.Exclusive_Unblock |           2      3.39%      3.39% |          45     76.27%     79.66% |          11     18.64%     98.31% |           1      1.69%    100.00%
+system.ruby.l2_cntrl0.IFLXO.Exclusive_Unblock::total           59                      
+
+system.ruby.l2_cntrl0.IGS.L1_GETS        |          28     30.11%     30.11% |          15     16.13%     46.24% |          27     29.03%     75.27% |          23     24.73%    100.00%
+system.ruby.l2_cntrl0.IGS.L1_GETS::total           93                      
+
+system.ruby.l2_cntrl0.IGS.Data_Exclusive |       65234     24.99%     24.99% |       65235     25.00%     49.99% |       65257     25.00%     74.99% |       65263     25.01%    100.00%
+system.ruby.l2_cntrl0.IGS.Data_Exclusive::total       260989                      
+
+system.ruby.l2_cntrl0.IGS.Exclusive_Unblock |       65234     24.99%     24.99% |       65235     25.00%     49.99% |       65257     25.00%     74.99% |       65263     25.01%    100.00%
+system.ruby.l2_cntrl0.IGS.Exclusive_Unblock::total       260989                      
+
+system.ruby.l2_cntrl0.IGM.Data           |       52989     25.00%     25.00% |       53012     25.01%     50.00% |       52975     24.99%     74.99% |       53014     25.01%    100.00%
+system.ruby.l2_cntrl0.IGM.Data::total          211990                      
+
+system.ruby.l2_cntrl0.IGMO.All_Acks      |       52989     25.00%     25.00% |       53012     25.01%     50.00% |       52975     24.99%     74.99% |       53014     25.01%    100.00%
+system.ruby.l2_cntrl0.IGMO.All_Acks::total       211990                      
+
+system.ruby.l2_cntrl0.IGMO.Exclusive_Unblock |       52989     25.00%     25.00% |       53012     25.01%     50.00% |       52975     24.99%     74.99% |       53014     25.01%    100.00%
+system.ruby.l2_cntrl0.IGMO.Exclusive_Unblock::total       211990                      
+
+system.ruby.l2_cntrl0.MM.Exclusive_Unblock |      101405     24.98%     24.98% |      101631     25.03%     50.01% |      101370     24.97%     74.98% |      101550     25.02%    100.00%
+system.ruby.l2_cntrl0.MM.Exclusive_Unblock::total       405956                      
+
+system.ruby.l2_cntrl0.OO.Exclusive_Unblock |       11249     25.12%     25.12% |       11173     24.95%     50.08% |       11143     24.89%     74.96% |       11210     25.04%    100.00%
+system.ruby.l2_cntrl0.OO.Exclusive_Unblock::total        44775                      
+
+system.ruby.l2_cntrl0.OLSXS.Unblock      |           1      5.88%      5.88% |           4     23.53%     29.41% |           2     11.76%     41.18% |          10     58.82%    100.00%
+system.ruby.l2_cntrl0.OLSXS.Unblock::total           17                      
+
+system.ruby.l2_cntrl0.MI.L1_GETX         |           0      0.00%      0.00% |           0      0.00%      0.00% |           2     50.00%     50.00% |           2     50.00%    100.00%
+system.ruby.l2_cntrl0.MI.L1_GETX::total             4                      
+
+system.ruby.l2_cntrl0.MI.Writeback_Ack   |      113601     25.00%     25.00% |      113613     25.00%     50.00% |      113598     25.00%     74.99% |      113636     25.01%    100.00%
+system.ruby.l2_cntrl0.MI.Writeback_Ack::total       454448                      
+
+system.ruby.l2_cntrl0.OLSI.Writeback_Ack |           1     20.00%     20.00% |           1     20.00%     40.00% |           1     20.00%     60.00% |           2     40.00%    100.00%
+system.ruby.l2_cntrl0.OLSI.Writeback_Ack::total            5                      
+
+system.ruby.dir_cntrl0.GETX              |       52989     25.00%     25.00% |       53012     25.01%     50.00% |       52975     24.99%     74.99% |       53014     25.01%    100.00%
+system.ruby.dir_cntrl0.GETX::total             211990                      
+
+system.ruby.dir_cntrl0.GETS              |       65234     24.99%     24.99% |       65235     25.00%     49.99% |       65257     25.00%     74.99% |       65263     25.01%    100.00%
+system.ruby.dir_cntrl0.GETS::total             260989                      
+
+system.ruby.dir_cntrl0.PUTX              |      113601     25.00%     25.00% |      113613     25.00%     50.00% |      113598     25.00%     74.99% |      113636     25.01%    100.00%
+system.ruby.dir_cntrl0.PUTX::total             454448                      
+
+system.ruby.dir_cntrl0.PUTO_SHARERS      |           1     20.00%     20.00% |           1     20.00%     40.00% |           1     20.00%     60.00% |           2     40.00%    100.00%
+system.ruby.dir_cntrl0.PUTO_SHARERS::total            5                      
+
+system.ruby.dir_cntrl0.Exclusive_Unblock |      118223     25.00%     25.00% |      118246     25.00%     50.00% |      118232     25.00%     74.99% |      118277     25.01%    100.00%
+system.ruby.dir_cntrl0.Exclusive_Unblock::total       472978                      
+
+system.ruby.dir_cntrl0.Clean_Writeback   |       62949     25.01%     25.01% |       62932     25.00%     50.01% |       62925     25.00%     75.00% |       62922     25.00%    100.00%
+system.ruby.dir_cntrl0.Clean_Writeback::total       251728                      
+
+system.ruby.dir_cntrl0.Dirty_Writeback   |       50653     24.99%     24.99% |       50682     25.00%     49.99% |       50674     25.00%     74.98% |       50716     25.02%    100.00%
+system.ruby.dir_cntrl0.Dirty_Writeback::total       202725                      
+
+system.ruby.dir_cntrl0.Memory_Data       |      118223     25.00%     25.00% |      118247     25.00%     50.00% |      118232     25.00%     74.99% |      118277     25.01%    100.00%
+system.ruby.dir_cntrl0.Memory_Data::total       472979                      
+
+system.ruby.dir_cntrl0.Memory_Ack        |       50653     24.99%     24.99% |       50682     25.00%     49.99% |       50674     25.00%     74.98% |       50716     25.02%    100.00%
+system.ruby.dir_cntrl0.Memory_Ack::total       202725                      
+
+system.ruby.dir_cntrl0.I.GETX            |       52989     25.00%     25.00% |       53012     25.01%     50.00% |       52975     24.99%     74.99% |       53014     25.01%    100.00%
+system.ruby.dir_cntrl0.I.GETX::total           211990                      
+
+system.ruby.dir_cntrl0.I.GETS            |       65234     24.99%     24.99% |       65235     25.00%     49.99% |       65257     25.00%     74.99% |       65263     25.01%    100.00%
+system.ruby.dir_cntrl0.I.GETS::total           260989                      
+
+system.ruby.dir_cntrl0.I.Memory_Ack      |       50652     24.99%     24.99% |       50682     25.00%     49.99% |       50673     25.00%     74.98% |       50714     25.02%    100.00%
+system.ruby.dir_cntrl0.I.Memory_Ack::total       202721                      
+
+system.ruby.dir_cntrl0.S.Memory_Ack      |           0      0.00%      0.00% |           0      0.00%      0.00% |           0      0.00%      0.00% |           1    100.00%    100.00%
+system.ruby.dir_cntrl0.S.Memory_Ack::total            1                      
+
+system.ruby.dir_cntrl0.M.PUTX            |      113601     25.00%     25.00% |      113613     25.00%     50.00% |      113598     25.00%     74.99% |      113636     25.01%    100.00%
+system.ruby.dir_cntrl0.M.PUTX::total           454448                      
+
+system.ruby.dir_cntrl0.M.PUTO_SHARERS    |           1     20.00%     20.00% |           1     20.00%     40.00% |           1     20.00%     60.00% |           2     40.00%    100.00%
+system.ruby.dir_cntrl0.M.PUTO_SHARERS::total            5                      
+
+system.ruby.dir_cntrl0.IS.Exclusive_Unblock |       65234     25.00%     25.00% |       65234     25.00%     49.99% |       65257     25.00%     74.99% |       65263     25.01%    100.00%
+system.ruby.dir_cntrl0.IS.Exclusive_Unblock::total       260988                      
+
+system.ruby.dir_cntrl0.IS.Memory_Data    |       65234     24.99%     24.99% |       65235     25.00%     49.99% |       65257     25.00%     74.99% |       65263     25.01%    100.00%
+system.ruby.dir_cntrl0.IS.Memory_Data::total       260989                      
+
+system.ruby.dir_cntrl0.MM.Exclusive_Unblock |       52989     25.00%     25.00% |       53012     25.01%     50.00% |       52975     24.99%     74.99% |       53014     25.01%    100.00%
+system.ruby.dir_cntrl0.MM.Exclusive_Unblock::total       211990                      
+
+system.ruby.dir_cntrl0.MM.Memory_Data    |       52989     25.00%     25.00% |       53012     25.01%     50.00% |       52975     24.99%     74.99% |       53014     25.01%    100.00%
+system.ruby.dir_cntrl0.MM.Memory_Data::total       211990                      
+
+system.ruby.dir_cntrl0.MM.Memory_Ack     |           1     33.33%     33.33% |           0      0.00%     33.33% |           1     33.33%     66.67% |           1     33.33%    100.00%
+system.ruby.dir_cntrl0.MM.Memory_Ack::total            3                      
+
+system.ruby.dir_cntrl0.MI.Clean_Writeback |       62948     25.01%     25.01% |       62931     25.00%     50.01% |       62924     25.00%     75.00% |       62921     25.00%    100.00%
+system.ruby.dir_cntrl0.MI.Clean_Writeback::total       251724                      
+
+system.ruby.dir_cntrl0.MI.Dirty_Writeback |       50653     24.99%     24.99% |       50682     25.00%     49.99% |       50674     25.00%     74.98% |       50715     25.02%    100.00%
+system.ruby.dir_cntrl0.MI.Dirty_Writeback::total       202724                      
+
+system.ruby.dir_cntrl0.MIS.Clean_Writeback |           1     25.00%     25.00% |           1     25.00%     50.00% |           1     25.00%     75.00% |           1     25.00%    100.00%
+system.ruby.dir_cntrl0.MIS.Clean_Writeback::total            4                      
+
+system.ruby.dir_cntrl0.MIS.Dirty_Writeback |           0      0.00%      0.00% |           0      0.00%      0.00% |           0      0.00%      0.00% |           1    100.00%    100.00%
+system.ruby.dir_cntrl0.MIS.Dirty_Writeback::total            1                      
+
+
+---------- End Simulation Statistics   ----------
